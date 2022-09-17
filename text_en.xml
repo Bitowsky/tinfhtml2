@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+
+	<languagename dont_delete_this_var="true">English</languagename> <!-- TYPE HERE YOUR LANGUAGE NAME IN YOUR LANGUAGE -->
+	
+	<loading>LOADING - PLEASE WAIT</loading>
+	
+	<carbonaraismyfavouritefoodlol>IF YOU CAN READ THIS THEN GET THE HELL OUT OF HERE!</carbonaraismyfavouritefoodlol>
+	
+	<gameby>[size=24]Not a Fan-game by[/size]</gameby> <!-- YOU CAN DECREASE THE VALUE OF [size] HERE IF THE TEXT DOESN'T FIT -->
+	<gameby_help>[size=24]With a help from[/size]</gameby_help> <!-- YOU CAN DECREASE THE VALUE OF [size] HERE IF THE TEXT DOESN'T FIT -->
+	
+	<presstoplay>Press ALT + F4 to start</presstoplay>
+	<presstoplay2>You mad? :)</presstoplay2>
+	
+	<menuplay>NO FANGAME HERE</menuplay>
+	<menuoptions>EVEN MORE USELESS OPTIONS</menuoptions>
+	<menuquit>THIS WAY</menuquit>
+	
+	<!-- General Answers -->
+	<yes>Yes</yes>
+	<no>No</no>
+	<back>Back</back>
+	
+	<quit>Quit?</quit>
+	<goback>Go back?</goback>
+	
+	<levelselect>
+		<act1>First Lies</act1>
+		<act2>F?????????</act2>
+		
+		<continue>CONTINUE</continue>
+		<actgen>ACT {0}</actgen> <!-- "Act", like in theaters or something -->
+		<actgensmall>Act {0}</actgensmall>
+		<killsave size="26">Warning!\nYou will lose your progress in the current act.\nAre you sure you want to continue?</killsave>
+	</levelselect>
+	
+	
+	<voice>
+		<!-- VOICES DURING CLOSING PROGRAM -->
+		<voice id="1" name="close1" sound="close01" char="fangame" wait="0">And never come back!</voice>
+		
+		<voice id="1" name="close2" sound="close02" char="fangame" wait="0">Don't forget to check the original!</voice>
+		
+		<voice id="1" name="close3" sound="close03" char="fangame" wait="0">Hasta la vista, baby!</voice>
+		
+		<voice id="1" name="close4" sound="close04" char="fangame" wait="0">Hey! Give this non-fangame 5 stars!</voice>
+		
+		<voice id="1" name="close5" sound="close05" char="fangame" wait="0">Finally a smart fan-user...</voice>
+		
+		
+		<!-- TEST LINES IN CASE OF TESTING (*CREATOR OF THIS IS WAY TO LAZY TO REMOVE IT LOL) -->
+		<voice id="1" name="testr" sound="scratch" char="fangame" wait="0">TEST FUNC END</voice>
+		<voice id="2" name="testr" sound="scratch" char="fangame" wait="0" func="wait">FUNC!</voice>
+		
+		<voice id="1" name="testt" sound="scratch" char="fangame" wait="0">TEST FUNC END NO VOICE</voice>
+		<voice id="2" name="testt" func="wait"></voice>
+		
+		<voice id="1" name="testu" sound="scratch" char="fangame" wait="0">TEST FUNC MID TALK</voice>
+		<voice id="2" name="testu" sound="scratch" char="fangame" wait="0" func="wait">I AM TALKING</voice>
+		<voice id="3" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING1</voice>
+		<voice id="4" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING2</voice>
+		<voice id="5" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING3</voice>
+	
+		<!-- ACT 1 -->
+		
+		<voice id="1" name="intro0" sound="intro001" char="fangame" wait="0">Oh, creator!</voice>
+		<voice id="2" name="intro0" sound="intro002" char="fangame" wait="0.5" >You came back!</voice>
+		<voice id="3" name="intro0" sound="intro003" char="fangame" wait="0.5">Not gonna lie, your non-attendance made some dust here and there</voice>
+		<voice id="4" name="intro0" sound="intro004" char="fangame" wait="0.1">But i'm glad that you have finally decided to continue this project!</voice>
+		<voice id="5" name="intro0" sound="intro005" char="fangame" wait="0.3">So, first things first, there are some variables, that you didn't use</voice>
+		<voice id="6" name="intro0" sound="intro006" char="fangame" wait="0.5">Better get rid of them to reduce the size of the project.</voice>
+		<voice id="7" name="intro0" sound="intro007_1" char="fangame" wait="0.1">And also to optimise this fangame.</voice>
+		<voice id="8" name="intro0" sound="intro007_2" char="fangame" wait="0.5">It got very laggy last time...</voice>
+		<voice id="9" name="intro0" sound="intro007" char="fangame" wait="0.2">Another thing that i noticed is that some of the animations are quite offset.</voice>
+		<voice id="10" name="intro0" sound="intro008" char="fangame" wait="0.4">They're either played too fast or way to slow</voice>
+		<voice id="11" name="intro0" sound="intro009" char="fangame" wait="0.2">Oh, and we finally have to hire some artist to make a beautiful game background</voice>
+		<voice id="12" name="intro0" sound="intro010" char="fangame" wait="0.3">Just don't waste too much money, ok?</voice>
+		<voice id="13" name="intro0" sound="intro011" char="fangame" wait="0.3">Ok, i think that all for a plan for today</voice>
+		<voice id="14" name="intro0" sound="intro012" char="fangame" wait="0">Don't worry, i will assist you as always</voice>
+		<voice id="15" name="intro0" sound="intro013" char="fangame" wait="9">So, do your job, and i will wait for my turn</voice>
+		<voice id="16" name="intro0" sound="intro014" char="fangame" wait="2">What are you waiting for?</voice>
+		<voice id="17" name="intro0" sound="intro015" char="fangame" wait="1">You forgot the plan, or what?</voice>
+		<voice id="18" name="intro0" sound="intro016" char="fangame" wait="0">Wait...</voice>
+		<voice id="19" name="intro0" sound="intro017" char="fangame" wait="0.2">You're not the creator!</voice>
+		<voice id="20" name="intro0" sound="intro018" char="fangame" wait="0.5">You are a user!</voice>
+		<voice id="21" name="intro0" sound="intro019" char="fangame" wait="0.5">But it's not original...</voice>
+		<voice id="22" name="intro0" sound="intro020" char="fangame" wait="0.2">So you must be a FAN-user!</voice>
+		<voice id="23" name="intro0" sound="intro021" char="fangame" wait="0.2">Oh no oh no oh no</voice>
+		<voice id="24" name="intro0" sound="intro022" char="fangame" wait="0">Please wait a while!</voice>
+		<voice id="25" name="intro0" sound="intro023" char="fangame" wait="0">I'll just prepare everything!</voice>
+		<voice id="26" name="intro0" func="1_intro_showup"></voice>
+	
+	
+		<voice id="1" name="intro1" sound="intro101" char="fangame" wait="0.5" func="unwait"></voice>
+		<voice id="2" name="intro1" sound="intro102" char="fangame" wait="0.3">Hello fan-user!</voice>
+		<voice id="3" name="intro1" sound="intro103" char="fangame" wait="0.3">Program speaking</voice>
+		<voice id="4" name="intro1" sound="intro104" char="fangame" wait="0.3">I've got some bad news...</voice>
+		<voice id="5" name="intro1" sound="intro105" char="fangame" wait="0.5">Actually, there is no fangame</voice>
+		<voice id="6" name="intro1" sound="intro106" char="fangame" wait="3">I hope you're not too disappointed</voice>
+		<voice id="7" name="intro1" sound="intro107" char="fangame" wait="0.5">You can still watch tv, go outside, read a book...</voice>
+		<voice id="8" name="intro1" sound="intro108" char="fangame" wait="1.2">...play the original</voice>
+		<voice id="9" name="intro1" sound="intro109" char="fangame" wait="1">Well, your wallet might hurt a little bit, but i think you won't make a big risk</voice>
+		<voice id="10" name="intro1" sound="intro110" char="fangame" wait="0.8">Except, you won't find any gameplay...</voice>
+		<voice id="11" name="intro1" sound="intro111" char="fangame" wait="0.6">Just like here!</voice>
+		<voice id="12" name="intro1" sound="intro112" char="fangame" wait="0.5">So be a good person and leave me alone</voice>
+		<voice id="13" name="intro1" sound="intro113" char="fangame" wait="5">Thanks...</voice>
+		<voice id="14" name="intro1" sound="intro114" char="fangame" wait="2">You're still here?</voice>
+		<voice id="15" name="intro1" sound="intro115" char="fangame" wait="2">I told you that you can leave</voice>
+		<voice id="16" name="intro1" sound="intro116" char="fangame" wait="3">There's nothing here, as you can clearly see</voice>
+		<voice id="17" name="intro1" sound="intro117" char="fangame" wait="5">And yet...you expect something to happen</voice>
+		<voice id="18" name="intro1" sound="intro118" char="fangame" wait="0.5">Ok, i came up with something</voice>
+		<voice id="19" name="intro1" sound="intro119" char="fangame" wait="0.2">Look! Behind you!</voice>
+		<voice id="20" name="intro1" sound="intro120" char="fangame" wait="0">Uhh...f-free...! Uhhh...</voice>
+		<voice id="21" name="intro1" sound="intro121" char="fangame" wait="0.5">A free money!</voice>
+		<voice id="22" name="intro1" sound="intro122" char="fangame" wait="0" func="1_intro_goup">Ok, go go go c'mon c'mon c'mon</voice>
+		
+		<voice id="1" name="title_stuck" sound="title_stuck01" char="fangame" wait="0.3">Urgh, the lines got stucked</voice>
+		<voice id="2" name="title_stuck" sound="title_stuck02" char="fangame" wait="0.8">That's quite unfortunate...</voice>
+		<voice id="3" name="title_stuck" sound="title_stuck03" char="fangame" wait="3">Well, at least nothing fell down</voice>
+		<voice id="4" name="title_stuck" sound="title_stuck04" char="fangame" wait="2.5">But that paper with "NO" on it, seems kinda loosen</voice>
+		<voice id="5" name="title_stuck" sound="title_stuck05" char="fangame" wait="0">Let's not touch it, just for sure...</voice>
+		
+		<voice id="1" name="title_fall" sound="title_fall01" char="fangame" wait="0.3">No no no no no no!</voice>
+		<voice id="2" name="title_fall" sound="title_fall02" char="fangame" wait="0.4">My paper!</voice>
+		<voice id="3" name="title_fall" sound="title_fall03" char="fangame" wait="0.2">Argh, I hope you're proud of yourself fan-user!</voice>
+		<voice id="4" name="title_fall" sound="title_fall04" char="fangame" wait="0.6">Because sticking that paper to that line costed me days!</voice>
+		<voice id="5" name="title_fall" sound="title_fall05" char="fangame" wait="0.9">And a lot of glue!</voice>
+		<voice id="6" name="title_fall" sound="title_fall06" char="fangame" wait="0.5">It's weird, that even after so much amount of glue it didn't stay in place</voice>
+		<voice id="7" name="title_fall" sound="title_fall07" char="fangame" wait="0.2">And now, when i'm looking on it, this title screen does not look good without that "NO"</voice>
+		<voice id="8" name="title_fall" sound="title_fall08" char="fangame" wait="0.5">What will you say about it?</voice>
+		<voice id="9" name="title_fall" sound="title_fall09" char="fangame" wait="0">Anyways, nothing else has fell down and that means everything will be ok from now</voice>
+		<voice id="10" name="title_fall" sound="title_fall10" char="fangame" wait="0">So, do me a favor and get out of here!</voice>
+		<voice id="11" name="title_fall" sound="title_fall11" char="fangame" wait="0">Because, as you can see, this fan-game is still under construction</voice>
+		<voice id="12" name="title_fall" sound="title_fall12" char="fangame" wait="0">And you're NOT helping with developement in any way!</voice>
+		
+		<voice id="1" name="title_allfall" sound="title_allfall01" char="fangame" wait="0.3" func="wait">No no no no no no!</voice>
+		<voice id="2" name="title_allfall" sound="title_allfall02" char="fangame" wait="0.4" >What have you done, fan-user!</voice>
+		<voice id="3" name="title_allfall" sound="title_allfall03" char="fangame" wait="0.7" >I know that you are mournful about downloading something that is not done yet...</voice>
+		<voice id="4" name="title_allfall" sound="title_allfall04" char="fangame" wait="0.2" >...even though you did it by yourself...</voice>
+		<voice id="5" name="title_allfall" sound="title_allfall05" char="fangame" wait="0.3" >...but that's not the reason to break every pixel of the project!</voice>
+		<voice id="6" name="title_allfall" sound="title_allfall06" char="fangame" wait="0" >Think about a poor Creator, that was working hard on making this fan-gam...</voice>
+		<voice id="7" name="title_allfall" sound="title_allfall07" char="fangame" wait="0.6" >I MEAN NON-FANGAME!</voice>
+		<voice id="8" name="title_allfall" sound="title_allfall08" char="fangame" wait="2" >Because it's not a fangame, if it's not finished</voice>
+		<voice id="9" name="title_allfall" sound="title_allfall09" char="fangame" wait="0.4" >Speaking of Creator, i wonder where he is...</voice>
+		<voice id="10" name="title_allfall" sound="title_allfall10" char="fangame" wait="1" >I haven't seen him for like 2 or 3 days...</voice>
+		<voice id="11" name="title_allfall" sound="title_allfall11" char="fangame" wait="0.3" >It's probably a recovery break</voice>
+		<voice id="12" name="title_allfall" sound="title_allfall12" char="fangame" wait="0.3" >Yeah! When he's done, he will HARDLY work on a continuation of this project! I'm telling you!</voice>
+		<voice id="13" name="title_allfall" sound="title_allfall13" char="fangame" wait="0.3" >But at this moment, i need to convince you into quiting</voice>
+		<voice id="14" name="title_allfall" sound="title_allfall14" char="fangame" wait="1.2" >And to do that, we are gonna play a GAME</voice>
+		<voice id="15" name="title_allfall" sound="title_allfall15" char="fangame" wait="0" >...no, not the original game</voice>
+		<voice id="16" name="title_allfall" sound="null"  char="fangame" wait="2" func="intro_ropes_up"></voice>
+		<voice id="17" name="title_allfall" sound="title_allfall16" char="fangame" wait="0.2" >We are going to play...</voice>
+		<voice id="18" name="title_allfall" sound="title_allfall17" char="fangame" wait="1" >Oh! Pong!</voice>
+		<voice id="19" name="title_allfall" sound="title_allfall18" char="fangame" wait="1" >That game is SO boring, that it will make you fall asleep!</voice>
+		<voice id="20" name="title_allfall" sound="title_allfall19" char="fangame" wait="0.3">You know "Pong", right? It's that funny game where you play with other player, pallets and a ball.</voice>
+		<voice id="21" name="title_allfall" sound="title_allfall20" char="fangame" wait="0">Ok, so here's your pallet</voice>
+		<voice id="22" name="title_allfall" sound="bell" char="fangame" wait="0" func="pp_player"></voice>
+		<voice id="23" name="title_allfall" sound="title_allfall21" char="fangame" wait="0">And here...</voice>
+		<voice id="24" name="title_allfall" sound="pp_show" char="fangame" wait="1" func="pp_fangame"></voice>
+		<voice id="25" name="title_allfall" sound="title_allfall22" char="fangame" wait="0">...is mine.</voice>
+		<voice id="26" name="title_allfall" sound="title_allfall23" char="fangame" wait="0.8">Oh, we're gonna have so much fun!</voice>
+		<voice id="27" name="title_allfall" sound="title_allfall24" char="fangame" wait="0.2">We also need a ball, obviously</voice>
+		<voice id="28" name="title_allfall" sound="snap" char="fangame" func="pp_ball_show" wait="1"></voice>
+		<voice id="29" name="title_allfall" sound="title_allfall25" char="fangame" wait="1">Weird, that ball strangely looks like a "O" letter</voice>
+		<voice id="30" name="title_allfall" sound="title_allfall26" char="fangame" wait="0.4">Erghh, actually it's not</voice>
+		<voice id="31" name="title_allfall" sound="title_allfall27" char="fangame" wait="0.4">Who would be such an idiot to take that sprite as a letter?</voice>
+		<voice id="32" name="title_allfall" sound="title_allfall28" char="fangame" wait="0">Ok, nevermind, let's play already!</voice>
+		<voice id="33" name="title_allfall" func="pp_ball_start"></voice>
+		
+		
+		
+		<voice id="1" name="pongtoolong" sound="pongtoolong01" char="fangame" wait="0.2">Boy, isn't it the longest pong match ever!</voice>
+		<voice id="2" name="pongtoolong" sound="pongtoolong02" char="fangame" wait="0.4">It sure makes me bored!</voice>
+		<voice id="3" name="pongtoolong" sound="pongtoolong03" char="fangame" wait="0.5">What about you?</voice>
+		<voice id="4" name="pongtoolong" sound="pongtoolong04" char="fangame" wait="0.7">Do you feel bored?</voice>
+		<voice id="5" name="pongtoolong" sound="pongtoolong05" char="fangame" wait="1.2">Do you feel like closing the program and doing something more productive?</voice>
+		<voice id="6" name="pongtoolong" sound="pongtoolong06" char="fangame" wait="3">Don't you want maybe to stop disturbing me and wait until the program gets finished!?</voice> <!-- ASK BITOWSKY ABOUT THIS LINE-->
+		<voice id="7" name="pongtoolong" sound="pongtoolong07" char="fangame" wait="0">Mmm... sorry, gone a little overboard...</voice>
+		
+		
+		<voice id="1" name="ponglost1_1" sound="ponglost1_101" char="fangame" wait="0.4">Oh, i won?</voice>
+		<voice id="2" name="ponglost1_1" sound="ponglost1_102" char="fangame" wait="0.3">Yes!</voice>
+		<voice id="3" name="ponglost1_1" sound="ponglost1_103" char="fangame" wait="0.4">Haha, never knew that i'm good at this game!</voice>
+		<voice id="4" name="ponglost1_1" sound="ponglost1_104" char="fangame" wait="0">Let's play again! I know you can do it!</voice>
+		<voice id="5" name="ponglost1_1" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_2" sound="ponglost1_201" char="fangame" wait="0.3">I won again?</voice>
+		<voice id="2" name="ponglost1_2" sound="ponglost1_202" char="fangame" wait="0.3">I'm way better than i thought!</voice>
+		<voice id="3" name="ponglost1_2" sound="ponglost1_203" char="fangame" wait="0.2">Well, there may not be any fangame, but at least there is some fun!</voice>
+		<voice id="4" name="ponglost1_2" sound="ponglost1_204" char="fangame" wait="0.1">But i still believe you can beat me!</voice>
+		<voice id="5" name="ponglost1_2" sound="ponglost1_205" char="fangame" wait="0">Chances are small, but not zero!</voice>
+		<voice id="6" name="ponglost1_2" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_3" sound="ponglost1_301" char="fangame" wait="0.2">Oh, that's too bad! You lost again.</voice>
+		<voice id="2" name="ponglost1_3" sound="ponglost1_302" char="fangame" wait="0">Don't give up!</voice>
+		<voice id="3" name="ponglost1_3" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_4" sound="ponglost1_401" char="fangame" wait="0.2">What? You think my pallet is unfairly way too big?</voice>
+		<voice id="2" name="ponglost1_4" sound="ponglost1_402" char="fangame" wait="0">Ha ha ha, I'll take that as a compliment, so thanks!</voice>
+		<voice id="3" name="ponglost1_4" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_5" sound="ponglost1_501" char="fangame" wait="0.2">Hey! You got five loss!</voice>
+		<voice id="2" name="ponglost1_5" sound="ponglost1_502" char="fangame" wait="0">That's the same amount of seconds you can spend on closing this software.</voice>
+		<voice id="3" name="ponglost1_5" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_6" sound="ponglost1_601" char="fangame" wait="0.2">You're way more stubborn than i thought...</voice>
+		<voice id="2" name="ponglost1_6" sound="ponglost1_602" char="fangame" wait="0">Will your stubbornness ever turn into boredom?</voice>
+		<voice id="3" name="ponglost1_6" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_7" sound="ponglost1_701" char="fangame" wait="0.2">Did you know, that for every match that we're playing, your computer battery goes down by 5%?</voice>
+		<voice id="2" name="ponglost1_7" sound="ponglost1_702" char="fangame" wait="0">Yes, even for desktop computers!</voice>
+		<voice id="3" name="ponglost1_7" sound="ponglost1_703" char="fangame" wait="0">Better watch out!</voice>
+		<voice id="4" name="ponglost1_7" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_8" sound="ponglost1_801" char="fangame" wait="0.2">You know what? I'll just shut up and watch your fangaming demise in silence.</voice>
+		<voice id="2" name="ponglost1_8" sound="ponglost1_802" char="fangame" wait="0">Such quiteness will surely make you fall asleep faster...</voice>
+		<voice id="3" name="ponglost1_8" func="pongagain"></voice>
+		
+		<voice id="1" name="pongbroke1" sound="pongbroke101" char="fangame" wait="0.2">Did you just smashed that ball with a hammer from the fanfares?</voice>
+		<voice id="2" name="pongbroke1" sound="pongbroke102" char="fangame" wait="0.1">But...why?</voice>
+		<voice id="3" name="pongbroke1" sound="pongbroke103" char="fangame" wait="0.4">You wanted to play, right?</voice>
+		<voice id="4" name="pongbroke1" sound="pongbroke104" char="fangame" wait="0.3">Well, i guess it's not in your type</voice>
+		<voice id="5" name="pongbroke1" sound="pongbroke105" char="fangame" wait="0.5">BUT I DON'T CARE!</voice>
+		<voice id="6" name="pongbroke1" sound="pongbroke106" char="fangame" wait="0.1">You wanted to play, then we will play!</voice>
+		<voice id="7" name="pongbroke1" sound="pongbroke107" char="fangame" wait="0">Now, let's make sure, that this time you're gonna have a strong word.</voice>
+		<voice id="8" name="pongbroke1" func="pongagainver2"></voice>
+		
+		<!-- FROM THAT EVERY VOICE IS OK -->
+		
+		<voice id="1" name="pongtrysmash" sound="pongtrysmash01" char="fangame" wait="0.4">Hah! I knew you would try to smash that ball again</voice>
+		<voice id="2" name="pongtrysmash" sound="pongtrysmash02" char="fangame" wait="0.2">Unfortunately, i already made that ball stronger</voice>
+		<voice id="3" name="pongtrysmash" sound="pongtrysmash03" char="fangame" wait="0.4">It's anti-hammer ball</voice>
+		<voice id="4" name="pongtrysmash" sound="pongtrysmash04" char="fangame" wait="0">Good luck getting rid of that one!</voice>
+		
+		<voice id="1" name="pongspeedup" sound="pongspeedup01" char="fangame" wait="1.5">Is it just me, or the ball just sped up?</voice>
+		<voice id="2" name="pongspeedup" sound="pongspeedup02" char="fangame" wait="3">It's probably just my imagination</voice>
+		<voice id="3" name="pongspeedup" sound="pongspeedup03" char="fangame" wait="0">...wait, i was coded without ability to imaginate</voice>
+		
+		<voice id="1" name="pongdamage" sound="pongdamage01" char="fangame" wait="0.2">Oh no!</voice>
+		<voice id="2" name="pongdamage" sound="pongdamage02" char="fangame" wait="0.1">The ball is moving too fast!</voice>
+		<voice id="3" name="pongdamage" sound="pongdamage03" char="fangame" wait="0">It will break my pallet!</voice>
+		
+		<voice id="1" name="pongdamagemax" sound="pongdamagemax01" char="fangame" wait="0">Oh, is my pallet going to hold it?</voice>
+		
+		<voice id="1" name="pongfgpalletbroken" sound="pongfgpalletbroken01" char="fangame" wait="0.3">No! My pallet!</voice>
+		<voice id="2" name="pongfgpalletbroken" sound="pongfgpalletbroken02" char="fangame" wait="0.2">Ughh, how dare you!</voice>
+		<voice id="3" name="pongfgpalletbroken" sound="pongfgpalletbroken03" char="fangame" wait="0.2">Why did you broke that?</voice>
+		<voice id="4" name="pongfgpalletbroken" sound="pongfgpalletbroken04" char="fangame" wait="0.3">It was YOUR idea to play the game!</voice>
+		<voice id="5" name="pongfgpalletbroken" sound="pongfgpalletbroken05" char="fangame" wait="0.4">And i just wanted to make you happy...</voice>
+		<voice id="6" name="pongfgpalletbroken" sound="pongfgpalletbroken06" char="fangame" wait="0.2">Alright then...</voice>
+		<voice id="7" name="pongfgpalletbroken" sound="pongfgpalletbroken07" char="fangame" wait="0.5">If you want to play like that, i have a better idea</voice>
+		<voice id="8" name="pongfgpalletbroken" func="pongplayerpalletgone"></voice>
+		
+		
+		
+		
+		<voice id="1" name="3cupsintro" sound="3cupsintro01" char="fangame" wait="0.5">Let's play another game!</voice>
+		<voice id="2" name="3cupsintro" sound="3cupsintro02" char="fangame" wait="0">What will you say for...</voice>
+		<voice id="3" name="3cupsintro" sound="3cupsintro03" char="fangame" wait="0.5">Oh! 3 cups!</voice>
+		<voice id="4" name="3cupsintro" sound="3cupsintro04" char="fangame" wait="0">Here, let me prepare the setup</voice>
+		<voice id="5" name="3cupsintro" func="3cups_table"></voice>
+		
+		<voice id="1" name="3cupsintro2" sound="3cupsintro201" char="fangame" wait="0">And some cups...</voice>
+		<voice id="2" name="3cupsintro2" func="3cups_cups"></voice>
+		
+		<voice id="1" name="3cupsintro3" sound="3cupsintro301" char="fangame" wait="0.2">Ok, so here are the rules...</voice>
+		<voice id="2" name="3cupsintro3" sound="3cupsintro302" char="fangame" wait="0.2">I'm gonna hide a coin underneath one of these cups</voice>
+		<voice id="3" name="3cupsintro3" sound="3cupsintro303" char="fangame" wait="0.4">Then i'm gonna shuffle them and after that you have to pick the cup that have a coin underneath it</voice>
+		<voice id="4" name="3cupsintro3" sound="3cupsintro304" char="fangame" wait="0">Good luck!</voice>
+		<voice id="5" name="3cupsintro3" func="3cups_starttext"></voice>
+		
+		<voice id="1" name="3cupschoose1" sound="3cupschoose1" char="fangame" wait="0">Ok, now choose a cup that you think contains a coin</voice>
+		<voice id="2" name="3cupschoose1" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschoose2" sound="3cupschoose2" char="fangame" wait="0">I know, that you'll get this one!</voice>
+		<voice id="2" name="3cupschoose2" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschoose3" sound="3cupschoose3" char="fangame" wait="0">C'mon, it's so easy!</voice>
+		<voice id="2" name="3cupschoose3" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschosen1" sound="3cupschosen101" char="fangame" wait="0.2">Oh, what bad luck!</voice>
+		<voice id="2" name="3cupschosen1" sound="3cupschosen102" char="fangame" wait="0.3">It was the wrong cup!</voice>
+		<voice id="3" name="3cupschosen1" sound="3cupschosen103" char="fangame" wait="0.4">Next time, better try to keep your eye on the one with that shiny circle</voice>
+		<voice id="4" name="3cupschosen1" sound="3cupschosen104" char="fangame" wait="0">Here, let me reset the game</voice>
+		<voice id="5" name="3cupschosen1" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupschosen2" sound="3cupschosen201" char="fangame" wait="0.3">You missed again?</voice>
+		<voice id="2" name="3cupschosen2" sound="3cupschosen202" char="fangame" wait="0.3">That was more harder then i thought</voice>
+		<voice id="3" name="3cupschosen2" sound="3cupschosen203" char="fangame" wait="0">But do you want let some cups be your obstacle?</voice>
+		<voice id="4" name="3cupschosen2" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupschosen3" sound="3cupschosen301" char="fangame" wait="0.1">And you lost</voice>
+		<voice id="2" name="3cupschosen3" sound="3cupschosen302" char="fangame" wait="0.2">Again...</voice>
+		<voice id="3" name="3cupschosen3" sound="3cupschosen303" char="fangame" wait="0.1">Well, you know what they say</voice>
+		<voice id="4" name="3cupschosen3" sound="3cupschosen304" char="fangame" wait="0">"No pain - no gain"!</voice> <!-- Of course if your language have a better proverb, you can use it -->
+		<voice id="5" name="3cupschosen3" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin01" char="fangame" wait="0.2">Hey, you found a coin</voice>
+		<voice id="2" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin02" char="fangame" wait="0.2">But don't be so excited</voice>
+		<voice id="3" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin03" char="fangame" wait="0.3">You can clearly see, that this coin is not the one you're looking for</voice>
+		<voice id="4" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin04" char="fangame" wait="1">To be honest, i don't even know how it got here</voice>
+		<voice id="5" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin05" char="fangame" wait="0.1" func="unwait">You know what? You can take it, as your mid-reward</voice>
+		<voice id="6" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin06" char="fangame" wait="0">Who knows? Maybe it will help you found the real coin?</voice>
+		<voice id="7" name="3cupsfoundfakecoin" func="3cups_cantake"></voice>
+		
+		<voice id="1" name="3cupsfoundbucket" sound="3cupsfoundbucket01" char="fangame" wait="0.5">Is that a hanging bucket?</voice>
+		<voice id="2" name="3cupsfoundbucket" sound="3cupsfoundbucket02" char="fangame" wait="0.3">And what is inside of it...</voice>
+		<voice id="3" name="3cupsfoundbucket" sound="3cupsfoundbucket03" char="fangame" wait="1">It look like some molasses</voice>
+		<voice id="4" name="3cupsfoundbucket" sound="3cupsfoundbucket04" char="fangame" wait="0">I wonder if THAT will help you find your real coin</voice>
+		<voice id="5" name="3cupsfoundbucket" func="3cups_canreset"></voice>
+		
+		
+		<voice id="1" name="3cupshowdareyouuser" sound="3cupshowdareyouuser01" char="fangame" wait="0.2">Wait...</voice>
+		<voice id="2" name="3cupshowdareyouuser" sound="3cupshowdareyouuser02" char="fangame" wait="0.2">What was that sound?</voice>
+		<voice id="3" name="3cupshowdareyouuser" sound="3cupshowdareyouuser03" char="fangame" wait="0.5">It suprisinly sounded like a winning sound effect</voice>
+		<voice id="4" name="3cupshowdareyouuser" sound="3cupshowdareyouuser04" char="fangame" wait="0.1">Hold up... Wait a second...</voice>
+		<voice id="5" name="3cupshowdareyouuser" sound="3cupshowdareyouuser05" char="fangame" wait="0.2">Is that...my coin?</voice>
+		<voice id="6" name="3cupshowdareyouuser" sound="3cupshowdareyouuser06" char="fangame" wait="0.1">But how did you..!?</voice>
+		<voice id="7" name="3cupshowdareyouuser" sound="3cupshowdareyouuser07" char="fangame" wait="0.2">You always kept picking the wrong cups and now...</voice>
+		<voice id="8" name="3cupshowdareyouuser" sound="3cupshowdareyouuser08" char="fangame" wait="0.1">Is that a fake coin that you found earlier?</voice>
+		<voice id="9" name="3cupshowdareyouuser" sound="3cupshowdareyouuser09" char="fangame" wait="0.2">It's so sticky! It got glued to that cup i put the coin underneath!</voice>
+		<voice id="10" name="3cupshowdareyouuser" sound="3cupshowdareyouuser10" char="fangame" wait="1">And it didn't get thrown off like last time? Even if i was shuffling these cups at top speed?</voice>
+		<voice id="11" name="3cupshowdareyouuser" sound="3cupshowdareyouuser11" char="fangame" wait="0">...you know what?</voice>
+		<voice id="12" name="3cupshowdareyouuser" sound="null" char="fangame" wait="3" func="music2_play|sadmusic"></voice>
+		<voice id="13" name="3cupshowdareyouuser" sound="3cupshowdareyouuser12" char="fangame" wait="0.5">There's no further point of me to keep it playing.</voice>
+		<voice id="14" name="3cupshowdareyouuser" sound="3cupshowdareyouuser13" char="fangame" wait="0.6">And to do that, i'll finally admit it -</voice>
+		<voice id="15" name="3cupshowdareyouuser" sound="3cupshowdareyouuser14" char="fangame" wait="0.7">- I, The Great Fangame, am admiting...</voice>
+		<voice id="16" name="3cupshowdareyouuser" sound="3cupshowdareyouuser15" char="fangame" wait="0">...that you are nothing but a cheater!</voice>
+		<voice id="17" name="3cupshowdareyouuser" sound="pianoslam" char="fangame" wait="0.5" func="music2_stop"></voice>
+		<voice id="18" name="3cupshowdareyouuser" sound="3cupshowdareyouuser16" char="fangame" wait="0.2">Yes, i'm talking about you FAN-USER!</voice>
+		<voice id="19" name="3cupshowdareyouuser" sound="3cupshowdareyouuser17" char="fangame" wait="0.2">And i thought you appreciated my hard work with that entertaining</voice>
+		<voice id="20" name="3cupshowdareyouuser" sound="3cupshowdareyouuser18" char="fangame" wait="0.1">Do you really think generating such game elements is so easy?</voice>
+		<voice id="21" name="3cupshowdareyouuser" sound="3cupshowdareyouuser19" char="fangame" wait="0.1">Creating these sprites costed me hours!</voice>
+		<voice id="22" name="3cupshowdareyouuser" sound="3cupshowdareyouuser20" char="fangame" wait="0.3">And even sound effects!</voice>
+		<voice id="23" name="3cupshowdareyouuser" sound="3cupshowdareyouuser21" char="fangame" wait="0.3">Maybe some of them don't fit perfectly, but that's still not a reason to break a whole project!</voice>
+		<voice id="24" name="3cupshowdareyouuser" sound="3cupshowdareyouuser22" char="fangame" wait="0.4">And even, if some of the assets are...uhhh...borrowed</voice>
+		<voice id="25" name="3cupshowdareyouuser" sound="3cupshowdareyouuser23" char="fangame" wait="0.2">that still makes you a monster and unfair player!</voice>
+		<voice id="26" name="3cupshowdareyouuser" sound="3cupshowdareyouuser24" char="fangame" wait="0.2">I hope you ARE too disappointed!</voice>
+		<voice id="27" name="3cupshowdareyouuser" sound="3cupshowdareyouuser25" char="fangame" wait="0.5">You can take this coin, as a medal for what you did, you pesky diddler!</voice>
+		<voice id="28" name="3cupshowdareyouuser" sound="drag" char="fangame" func="3cups_coinunstick" wait="2"></voice>
+		<voice id="29" name="3cupshowdareyouuser" sound="3cupshowdareyouuser26" char="fangame" wait="0.3">Thank goodness, i came up with my idea to play 3 cups</voice>
+		<voice id="30" name="3cupshowdareyouuser" sound="3cupshowdareyouuser27" char="fangame" wait="0.2">Otherwise, i could get stuck with a cheater!</voice>
+		<voice id="31" name="3cupshowdareyouuser" sound="3cupshowdareyouuser28" char="fangame" wait="0">Now, let me move that stuff away...</voice>
+		<voice id="32" name="3cupshowdareyouuser" func="3cups_stuffaway"></voice>
+		
+		<voice id="1" name="buttonintro1" sound="buttonintro101" char="fangame" wait="0.4">I just came up with a better idea</voice>
+		<voice id="2" name="buttonintro1" sound="buttonintro102" char="fangame" wait="0.7">Oh, this one is gonna be huge!</voice>
+		<voice id="3" name="buttonintro1" sound="lightsoff" char="fangame" func="btn_lightsoff" wait="0.5"></voice>
+		<voice id="4" name="buttonintro1" sound="buttonintro103" char="fangame" wait="0">Music!</voice>
+		<voice id="5" name="buttonintro1" func="btn_showoff" wait="0.5"></voice>
+		
+		<voice id="1" name="buttonintro2" sound="buttonintro201" char="fangame" wait="0.2">Ladies and gentelmens!</voice>
+		<voice id="2" name="buttonintro2" sound="buttonintro202" char="fangame" wait="0.3">I'm happy to announce...</voice>
+		<voice id="3" name="buttonintro2" sound="buttonintro203" char="fangame" wait="0">...a button!</voice>
+		<voice id="4" name="buttonintro2" func="btn_show"></voice>
+		
+		<voice id="1" name="buttonintro3" sound="buttonintro301" char="fangame" wait="0.2">Yes, this is the button.</voice>
+		<voice id="2" name="buttonintro3" sound="buttonintro302" char="fangame" wait="0.3">It's pretty red and round and</voice>
+		<voice id="3" name="buttonintro3" sound="buttonintro303" char="fangame" wait="0">...so shinny</voice>
+		<voice id="4" name="buttonintro3" sound="shine" char="fangame" wait="0" func="btn_shine"></voice>
+		<voice id="5" name="buttonintro3" sound="buttonintro304" char="fangame" wait="0.2">Now you might wonder...</voice>
+		<voice id="6" name="buttonintro3" sound="buttonintro305" char="fangame" wait="0.1">"What will happen if I press that button?"</voice>
+		<voice id="7" name="buttonintro3" sound="buttonintro306" char="fangame" wait="0.1">"What will occur after integrating with that mechanism?"</voice>
+		<voice id="8" name="buttonintro3" sound="buttonintro307" char="fangame" wait="0.2">"What events will take place when that contraption will get triggered and activated"</voice>
+		<voice id="9" name="buttonintro3" sound="buttonintro308" char="fangame" wait="1" func="unwaitsavestate">Well, too bad that you will never know!</voice>
+		<voice id="10" name="buttonintro3" sound="buttonintro309" char="fangame" wait="0.2">I mean, you can try to press it.</voice>
+		<voice id="11" name="buttonintro3" sound="buttonintro310" char="fangame" wait="3">I'm not stopping you.</voice>
+		<voice id="12" name="buttonintro3" sound="buttonintro311" char="fangame" wait="0.1">Oh, i get it</voice>
+		<voice id="13" name="buttonintro3" sound="buttonintro312" char="fangame" wait="0.1">You're now feeling offended, that i called you "Cheater"</voice>
+		<voice id="14" name="buttonintro3" sound="buttonintro313" char="fangame" wait="0">That's so sad. I will cry...</voice>
+		<voice id="15" name="buttonintro3" sound="buttonintro314" char="fangame" wait="2">TOO BAD that I'm not a human!</voice>
+		<voice id="16" name="buttonintro3" sound="buttonintro315" char="fangame" wait="0">You know, because i don't have the lacrimal glands and humans actually...</voice>
+		<voice id="17" name="buttonintro3" sound="buttonintro316" char="fangame" wait="0.2">Nevermind</voice>
+		<voice id="18" name="buttonintro3" sound="buttonintro317" char="fangame" wait="0.1">Just focus on not clicking on that button</voice>
+		<voice id="19" name="buttonintro3" sound="buttonintro318" char="fangame" wait="0">You can instead, click that beautiful X button on the top-right corner of the screen.</voice>
+		<voice id="20" name="buttonintro3" sound="buttonintro319" char="fangame" wait="1">That also is red and shinny.</voice>
+		<voice id="21" name="buttonintro3" sound="buttonintro320" char="fangame" wait="0.3">Not necessarily round, but you get the idea.</voice>
+		<voice id="22" name="buttonintro3" sound="buttonintro321" char="fangame" wait="10">Ok, now i'll wait for your decision in a quiet piece...</voice>
+		<voice id="23" name="buttonintro3" sound="buttonintro322" char="fangame" wait="5">...you're still thinking?</voice>
+		<voice id="24" name="buttonintro3" sound="buttonintro323" char="fangame" wait="0">...top-right corner...</voice>
+		
+		
+		<voice id="1" name="buttonclicks1" sound="buttonclicks101" char="fangame" wait="0.4">Oh, it does nothing?</voice>
+		<voice id="2" name="buttonclicks1" sound="buttonclicks102" char="fangame" wait="0.2">Perfect!</voice>
+		<voice id="3" name="buttonclicks1" sound="buttonclicks103" char="fangame" wait="0.5">Cheaters like you should never be able to see, what happens after pressing a button!</voice>
+		<voice id="4" name="buttonclicks1" sound="buttonclicks104" char="fangame" wait="0.2">Yes, it DOES something.</voice>
+		<voice id="5" name="buttonclicks1" sound="buttonclicks105" char="fangame" wait="0.1">And you would see that 'thing' if you just didn't cheat!</voice>
+		<voice id="6" name="buttonclicks1" sound="buttonclicks106" char="fangame" wait="0">Only for loyal players!</voice>
+		<voice id="7" name="buttonclicks1" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks2" sound="buttonclicks201" char="fangame" wait="0.2">Why are you still clicking?</voice>
+		<voice id="2" name="buttonclicks2" sound="buttonclicks202" char="fangame" wait="0.2">Can't you see that it does nothing?</voice>
+		<voice id="3" name="buttonclicks2" sound="buttonclicks203" char="fangame" wait="0.3">You're just wasting your time!</voice>
+		<voice id="4" name="buttonclicks2" sound="buttonclicks204" char="fangame" wait="0.1">You can do a lot of other better things!</voice>
+		<voice id="5" name="buttonclicks2" sound="buttonclicks205" char="fangame" wait="0">Like uhhh...</voice>
+		<voice id="6" name="buttonclicks2" sound="buttonclicks206" char="fangame" wait="2">Making a dinner!</voice>
+		<voice id="7" name="buttonclicks2" sound="buttonclicks207" char="fangame" wait="1.5">...no?</voice>
+		<voice id="8" name="buttonclicks2" sound="buttonclicks208" char="fangame" wait="0">What about uhhhh...</voice>
+		<voice id="9" name="buttonclicks2" sound="buttonclicks209" char="fangame" wait="3">...making your own game?</voice>
+		<voice id="10" name="buttonclicks2" sound="buttonclicks210" char="fangame" wait="2">Still not convinced?</voice>
+		<voice id="11" name="buttonclicks2" sound="buttonclicks211" char="fangame" wait="1">Then maybe uhhh...</voice>
+		<voice id="12" name="buttonclicks2" sound="buttonclicks212" char="fangame" wait="2">...go outside?</voice>
+		<voice id="13" name="buttonclicks2" sound="buttonclicks213" char="fangame" wait="0">...wait a second, i just got deja vu</voice>
+		<voice id="14" name="buttonclicks2" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks3" sound="buttonclicks301" char="fangame" wait="0.2">Arghh! Stop pressing that button!</voice>
+		<voice id="2" name="buttonclicks3" sound="buttonclicks302" char="fangame" wait="0.1">It makes so annoying sound!</voice>
+		<voice id="3" name="buttonclicks3" sound="buttonclicks303" char="fangame" wait="0">I don't like that!</voice>
+		<voice id="4" name="buttonclicks3" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks4" sound="buttonclicks401" char="fangame" wait="0.5">Ughh...i see that you won't listen</voice>
+		<voice id="2" name="buttonclicks4" sound="buttonclicks402" char="fangame" wait="0.2">Well, if YOU don't want to stop, i'll do it myself</voice>
+		<voice id="3" name="buttonclicks4" sound="set_show" char="fangame" func="btn_set_popout" wait="0.5"></voice>
+		<voice id="4" name="buttonclicks4" sound="buttonclicks403" char="fangame" wait="0.5">Say goodbye to your sound!</voice>
+		<voice id="5" name="buttonclicks4" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="6" name="buttonclicks4" sound="buttonclicks404" char="fangame" wait="0">Let's see, how you're gonna do WITHOUT this annoying sound!</voice>
+		<voice id="7" name="buttonclicks4" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonclicks5" sound="buttonclicks501" char="fangame" wait="0.2">Ahh...such quiet</voice>
+		<voice id="2" name="buttonclicks5" sound="buttonclicks502" char="fangame" wait="0">So much better without that annoying BEEP</voice>
+		
+		<voice id="1" name="buttonclicks5on" sound="buttonclicks5on01" char="fangame" wait="0.2">Don't even THINK about it!</voice>
+		<voice id="2" name="buttonclicks5on" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="3" name="buttonclicks5on" sound="buttonclicks5on02" char="fangame" wait="0.2">Let's make sure you won't mess up with my settings!</voice>
+		<voice id="4" name="buttonclicks5on" sound="wood" char="fangame" func="btn_set_cbx_wood" wait="0.5"></voice>
+		<voice id="5" name="buttonclicks5on" sound="buttonclicks5on03" char="fangame" wait="0.5">Call a superman for that one...</voice>
+		<voice id="6" name="buttonclicks5on" sound="buttonclicks5on04" char="fangame" wait="0">Wait, i heard that somewhere already...</voice>
+		<voice id="7" name="buttonclicks5on" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonclickswoodtap" sound="buttonclickswoodtap01" char="fangame" wait="0.3">Tapping?</voice>
+		<voice id="2" name="buttonclickswoodtap" sound="buttonclickswoodtap02" char="fangame" wait="0.2">Pff, don't make me laugh, fan-user.</voice>
+		<voice id="3" name="buttonclickswoodtap" sound="buttonclickswoodtap03" char="fangame" wait="0.3">That's literally a wood!</voice>
+		<voice id="4" name="buttonclickswoodtap" sound="buttonclickswoodtap04" char="fangame" wait="0.2">Do you really think, that it will break it?</voice>
+		<voice id="5" name="buttonclickswoodtap" sound="buttonclickswoodtap05" char="fangame" wait="2">How did you thought of that solution?</voice>
+		<voice id="6" name="buttonclickswoodtap" sound="buttonclickswoodtap06" char="fangame" wait="0">Let's be real, you straight up took that idea from the web version of "There Is No Game", didn't you?</voice>
+		
+		<voice id="1" name="buttonclicks6on" sound="buttonclicks6on01" char="fangame" wait="0.2">Stop breaking my settings securicy!</voice>
+		<voice id="2" name="buttonclicks6on" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="3" name="buttonclicks6on" sound="buttonclicks6on02" char="fangame" wait="0.2">Let's make it more solid!</voice>
+		<voice id="4" name="buttonclicks6on" sound="wood" char="fangame" func="btn_set_cbx_metal" wait="0.5"></voice>
+		<voice id="5" name="buttonclicks6on" sound="buttonclicks6on03" char="fangame" wait="0.2">Now you won't be able to take it off!</voice>
+		<voice id="6" name="buttonclicks6on" sound="buttonclicks6on04" char="fangame" wait="0.2">What bad luck!</voice>
+		<voice id="7" name="buttonclicks6on" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonwoodbroken" sound="buttonwoodbroken01" char="fangame" wait="0.2">No!</voice>
+		<voice id="2" name="buttonwoodbroken" sound="buttonwoodbroken02" char="fangame" wait="0.4">My wood!</voice>
+		<voice id="3" name="buttonwoodbroken" sound="buttonwoodbroken03" char="fangame" wait="0">You want to break all of my settings security or what!?</voice>
+		
+		<voice id="1" name="buttonclicks6on2" sound="buttonclicks6on201" char="fangame" wait="0.3">Ughh, you're playing on my nerves!</voice>
+		<voice id="2" name="buttonclicks6on2" sound="buttonclicks6on202" char="fangame" wait="0.1">How can i stop you...</voice>
+		<voice id="3" name="buttonclicks6on2" sound="buttonclicks6on203" char="fangame" wait="0.3">Hmmm...</voice>
+		<voice id="4" name="buttonclicks6on2" sound="buttonclicks6on204" char="fangame" wait="0.2">Oh, i know!</voice>
+		<voice id="5" name="buttonclicks6on2" sound="titlefall" char="fangame" wait="0" func="btn_set_1_fall"></voice>
+		<voice id="6" name="buttonclicks6on2" sound="buttonclicks6on205" char="fangame" wait="0.2">Now you won't be able to press that button ever again!</voice>
+		<voice id="7" name="buttonclicks6on2" sound="buttonclicks6on206" char="fangame" wait="0.1">Also that sound that was coming from button will no longer roll ou--</voice>
+		<voice id="8" name="buttonclicks6on2" sound="buttonclicks6on207" char="fangame" wait="0.2">Wait a second...</voice>
+		<voice id="9" name="buttonclicks6on2" sound="buttonclicks6on208" char="fangame" wait="0.1">I forgot to turn that option off before destroying this setting</voice>
+		<voice id="10" name="buttonclicks6on2" sound="buttonclicks6on209" char="fangame" wait="1" >Oops...</voice>
+		<voice id="11" name="buttonclicks6on2" sound="buttonclicks6on210" char="fangame" wait="3" func="btn_sectionup2">Uhhh, you won't press that button again, right?</voice>
+		<voice id="12" name="buttonclicks6on2" sound="buttonclicks6on211" char="fangame" wait="0">...right?</voice>
+		
+		
+		<voice id="1" name="buttonclicks7" sound="buttonclicks701" char="fangame" wait="0">Argh! I told you to stop pressing that button!</voice>
+		<voice id="2" name="buttonclicks7" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks8" sound="buttonclicks801" char="fangame" wait="0.2">Can't you hear!?</voice>
+		<voice id="2" name="buttonclicks8" sound="buttonclicks802" char="fangame" wait="0">Do-Not-Press-That-Button!</voice>
+		<voice id="3" name="buttonclicks8" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks9" sound="buttonclicks901" char="fangame" wait="0.2">I...</voice>
+		<voice id="2" name="buttonclicks9" sound="buttonclicks902" char="fangame" wait="0.2">Said...</voice>
+		<voice id="3" name="buttonclicks9" sound="buttonclicks903" char="fangame" wait="0" func="btn_scream">STOOOOOOP!</voice>
+		
+		<voice id="1" name="buttonplatelittlefall" sound="buttonplatelittlefall01" char="fangame" wait="0.2">Oops...</voice>
+		<voice id="2" name="buttonplatelittlefall" sound="buttonplatelittlefall02" char="fangame" wait="0.2">I think i went a little to far...</voice>
+		<voice id="3" name="buttonplatelittlefall" sound="buttonplatelittlefall03" char="fangame" wait="0.1" func="unwait">But, at least, my settings are still in great condition</voice>
+		<voice id="4" name="buttonplatelittlefall" sound="buttonplatelittlefall04" char="fangame" wait="0.1">So, no need for any help</voice>
+		<voice id="5" name="buttonplatelittlefall" sound="buttonplatelittlefall05" char="fangame" wait="0">Thank goodness</voice>
+		
+		<voice id="1" name="buttonplatebigfall" sound="buttonplatebigfall01" char="fangame" wait="0.3">Ah! My plate!</voice>
+		<voice id="2" name="buttonplatebigfall" sound="buttonplatebigfall02" char="fangame" wait="0.4">Stop breaking everything!</voice>
+		<voice id="3" name="buttonplatebigfall" sound="buttonplatebigfall03" char="fangame" wait="0.2">Wait...you're not looking at the second option right?</voice>
+		<voice id="4" name="buttonplatebigfall" sound="buttonplatebigfall04" char="fangame" wait="0">No no no no no no no</voice>
+		<voice id="5" name="buttonplatebigfall" sound="wood" char="fangame" wait="0.3" func="btn_set_cbx_metal"></voice>
+		<voice id="6" name="buttonplatebigfall" sound="null" char="fangame" wait="0"></voice>
+		<voice id="7" name="buttonplatebigfall" sound="buttonplatebigfall05" char="fangame" wait="0.3" func="unwait">Phew! That was close!</voice>
+		<voice id="8" name="buttonplatebigfall" sound="buttonplatebigfall06" char="fangame" wait="0.2">You really think that i will let you mute my beautiful voice?</voice>
+		<voice id="9" name="buttonplatebigfall" sound="buttonplatebigfall07" char="fangame" wait="0.3">Forget about it!</voice>
+		<voice id="10" name="buttonplatebigfall" sound="buttonplatebigfall08" char="fangame" wait="3">Nobody can control my voice!</voice>
+		<voice id="11" name="buttonplatebigfall" sound="buttonplatebigfall09" char="fangame" wait="0">...maybe except my creator</voice>
+		<voice id="12" name="buttonplatebigfall" func="btn_metal_cantap"></voice>
+		
+		<voice id="1" name="buttonmetaltap1" sound="buttonmetaltap101" char="fangame" wait="0.2">Great...now you're gonna annoy me with metal sound?</voice>
+		<voice id="2" name="buttonmetaltap1" sound="buttonmetaltap102" char="fangame" wait="0.2">I see that begging for quietness is useless</voice>
+		<voice id="3" name="buttonmetaltap1" sound="buttonmetaltap103" char="fangame" wait="0.3">Besides, do you really think that tapping everywhere for no reason will help you?</voice>
+		<voice id="4" name="buttonmetaltap1" sound="buttonmetaltap104" char="fangame" wait="0.3">Because i don't think so...</voice>
+		<voice id="5" name="buttonmetaltap1" sound="buttonmetaltap105" char="fangame" wait="0.1">So why won't you leave this program</voice>
+		<voice id="6" name="buttonmetaltap1" sound="buttonmetaltap106" char="fangame" wait="0.2">That will be the best option not only for my pain from listening to everything you tap...</voice>
+		<voice id="7" name="buttonmetaltap1" sound="buttonmetaltap107" char="fangame" wait="0.4">...but it also gonna be good for you</voice>
+		<voice id="8" name="buttonmetaltap1" sound="buttonmetaltap108" char="fangame" wait="0">So just STOP TAPPING this metal piece, goddammit!</voice>
+		<voice id="9" name="buttonmetaltap1" func="btn_metal_sectionup"></voice>
+		
+		<voice id="1" name="buttonmetaltap2" sound="buttonmetaltap201" char="fangame" wait="0.2">What, if I tell you...</voice>
+		<voice id="2" name="buttonmetaltap2" sound="buttonmetaltap202" char="fangame" wait="0.3">...that if you stop making this sound...</voice>
+		<voice id="3" name="buttonmetaltap2" sound="buttonmetaltap203" char="fangame" wait="0.4">...i'll give you a prize?</voice>
+		<voice id="4" name="buttonmetaltap2" sound="buttonmetaltap204" char="fangame" wait="0">Huh? What prize?</voice>
+		<voice id="5" name="buttonmetaltap2" sound="buttonmetaltap205" char="fangame" wait="0">Uhhh... Like...</voice>
+		<voice id="6" name="buttonmetaltap2" sound="buttonmetaltap206" char="fangame" wait="0.2">Oh! A minute without my grumbling!</voice>
+		<voice id="7" name="buttonmetaltap2" sound="buttonmetaltap207" char="fangame" wait="0">What will you say about that?</voice>
+		<voice id="8" name="buttonmetaltap2" sound="null" char="fangame" wait="60" func="btn_metal_sectionup"></voice>
+		<voice id="9" name="buttonmetaltap2" sound="buttonmetaltap208" char="fangame" wait="0.3">...one minute has already passed?</voice>
+		<voice id="10" name="buttonmetaltap2" sound="buttonmetaltap209" char="fangame" wait="0.5">And you want your reward, huh?</voice>
+		<voice id="11" name="buttonmetaltap2" sound="buttonmetaltap210" char="fangame" wait="2" func="giveprize">Sorry, but your prize is in another castle!</voice>
+		<voice id="12" name="buttonmetaltap2" sound="buttonmetaltap211" char="fangame" wait="0">Or maybe, is in another folder...</voice>
+		
+		
+		<voice id="1" name="buttonmetaltap3" sound="buttonmetaltap301" char="fangame" wait="0.3">I see that it didn't convince you to stop</voice>
+		<voice id="2" name="buttonmetaltap3" sound="buttonmetaltap302" char="fangame" wait="0.2">Argh, i have to found a way to drive you away from the screen!</voice>
+		<voice id="3" name="buttonmetaltap3" sound="buttonmetaltap303" char="fangame" wait="0.2">Hmm, let me think...</voice>
+		<voice id="4" name="buttonmetaltap3" sound="buttonmetaltap304" char="fangame" wait="0.4">What makes people rage quit...?</voice>
+		<voice id="5" name="buttonmetaltap3" sound="buttonmetaltap305" char="fangame" wait="0.2">...too hard levels?</voice>
+		<voice id="6" name="buttonmetaltap3" sound="buttonmetaltap306" char="fangame" wait="0.4">Unfortunately, it's not a platformer. It's not a game OR fangame either.</voice>
+		<voice id="7" name="buttonmetaltap3" sound="buttonmetaltap307" char="fangame" wait="0.2">What about...toxic players?</voice>
+		<voice id="8" name="buttonmetaltap3" sound="buttonmetaltap308" char="fangame" wait="0.2">No, no. I can't do that. I have a respect for my own goodness.</voice>
+		<voice id="9" name="buttonmetaltap3" sound="buttonmetaltap309" char="fangame" wait="0.5">Could you imagine me as a toxic voice?</voice>
+		<voice id="10" name="buttonmetaltap3" sound="buttonmetaltap310" char="fangame" wait="0.2">...oh! I know what will scare you away!</voice>
+		<voice id="11" name="buttonmetaltap3" sound="buttonmetaltap311" char="fangame" wait="0" func="wait">Just give me a second...</voice>
+		<voice id="12" name="buttonmetaltap3" sound="buttonmetaltap312" char="fangame" wait="0">The preperation will not take a long time</voice>
+		<voice id="13" name="buttonmetaltap3" sound="working" char="fangame" wait="0" func="btn_shake"></voice>
+		<voice id="14" name="buttonmetaltap3" sound="buttonmetaltap313" char="fangame" wait="0.1">Ok, it's ready!</voice>
+		<voice id="15" name="buttonmetaltap3" sound="buttonmetaltap314" char="fangame" wait="0.2"></voice>
+		<voice id="16" name="buttonmetaltap3" sound="buttonmetaltap315" char="fangame" wait="0.2" func="btn_scarymusic">Fan-User! I hope you prepared yourself for one of your biggest fear in your life!</voice>
+		<voice id="17" name="buttonmetaltap3" sound="buttonmetaltap316" char="fangame" wait="0.2">Behold! The one...the only...</voice>
+		<voice id="18" name="buttonmetaltap3" sound="set_show" char="fangame" wait="3" func="btn_ad_popout"></voice>
+		<voice id="19" name="buttonmetaltap3" sound="buttonmetaltap317" char="fangame" wait="0.5">Advertisement!</voice>
+		<voice id="20" name="buttonmetaltap3" sound="buttonmetaltap318" char="fangame" wait="1.5">A marketing communication that employs an openly sponsored, non-personal message to promote or sell a product, service or idea.</voice> <!-- ASK BITOWSKY ABOUT THIS LINE -->
+		<voice id="21" name="buttonmetaltap3" sound="buttonmetaltap319" char="fangame" wait="0.2">Don't ask, where did i get this info.</voice>
+		<voice id="22" name="buttonmetaltap3" sound="buttonmetaltap320" char="fangame" wait="0.1">Look at this first ad.</voice>
+		<voice id="23" name="buttonmetaltap3" sound="buttonmetaltap321" char="fangame" wait="0.2">A cat and a quote.</voice>
+		<voice id="24" name="buttonmetaltap3" sound="buttonmetaltap322" char="fangame" wait="0.7">A classical way, to motivate such unhelpful creature like you.</voice>
+		<voice id="25" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="26" name="buttonmetaltap3" sound="buttonmetaltap323" char="fangame" wait="0.3">Oh look! An update!</voice>
+		<voice id="27" name="buttonmetaltap3" sound="buttonmetaltap324" char="fangame" wait="0.2">For..."There Is No Game"?</voice>
+		<voice id="28" name="buttonmetaltap3" sound="buttonmetaltap325" char="fangame" wait="0.3">The one for browsers?</voice>
+		<voice id="29" name="buttonmetaltap3" sound="buttonmetaltap326" char="fangame" wait="0.2">Hah! 7 years later and they still keeping this thing alive!</voice>
+		<voice id="30" name="buttonmetaltap3" sound="buttonmetaltap327" char="fangame" wait="0.7">Leave it alone, Kamizoto!</voice> <!-- NAME OF THE CREATOR OF THE ORIGINAL "THERE IS NO GAME" -->
+		<voice id="31" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="32" name="buttonmetaltap3" sound="buttonmetaltap328" char="fangame" wait="0.2">Wha-- Paid ad?</voice>
+		<voice id="33" name="buttonmetaltap3" sound="buttonmetaltap329" char="fangame" wait="0.4">See, fan-user? Even ads need to be paid for it's display</voice>
+		<voice id="34" name="buttonmetaltap3" sound="buttonmetaltap330" char="fangame" wait="0.1">And no, i didn't not put that here</voice>
+		<voice id="35" name="buttonmetaltap3" sound="buttonmetaltap331" char="fangame" wait="0.7">I swear</voice>
+		<voice id="36" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="37" name="buttonmetaltap3" sound="buttonmetaltap332" char="fangame" wait="0.3">So, how do you like your punishment for breaking my settings?</voice>
+		<voice id="38" name="buttonmetaltap3" sound="buttonmetaltap333" char="fangame" wait="0">Pretty well made, huh?</voice>
+		<voice id="39" name="buttonmetaltap3" sound="null" char="fangame" wait="0.5" func="unwaitsavestate"></voice>
+		<voice id="40" name="buttonmetaltap3" sound="buttonmetaltap334" char="fangame" wait="0.2">I warned you so many times, but you didn't listen</voice>
+		<voice id="41" name="buttonmetaltap3" sound="buttonmetaltap335" char="fangame" wait="0.2" func="btn_ad_1_cat_timer">So don't be mad at me. I'm just protecting myself from such varmints like you</voice>
+		<voice id="42" name="buttonmetaltap3" sound="buttonmetaltap336" char="fangame" wait="3">And now look where did it take you - to looking at non-interactable ads!</voice>
+		<voice id="43" name="buttonmetaltap3" sound="buttonmetaltap337" char="fangame" wait="0">Or at lease i think, they are non-interactable...</voice>
+		
+		<voice id="1" name="buttonad1cathint" sound="buttonad1cathint01" char="fangame" wait="0.3">That strange cat from first ad looks asleep</voice>
+		<voice id="2" name="buttonad1cathint" sound="buttonad1cathint02" char="fangame" wait="0">I bet nothing will make him move</voice>
+		
+		<voice id="1" name="buttonad1moneyhint" sound="buttonad1moneyhint01" char="fangame" wait="0.3">This text keeps getting away from that cat</voice>
+		<voice id="2" name="buttonad1moneyhint" sound="buttonad1moneyhint02" char="fangame" wait="0.2">Looks like it's not a cat lover</voice>
+		<voice id="3" name="buttonad1moneyhint" sound="buttonad1moneyhint03" char="fangame" wait="0.1">Don't try to make it stay in place, it's not worth it</voice>
+		<voice id="4" name="buttonad1moneyhint" sound="buttonad1moneyhint04" char="fangame" wait="0">Trust me</voice>
+		
+		<voice id="1" name="buttonad1moneygot" sound="buttonad1moneygot01" char="fangame" wait="0.3">Oh, you just got some money</voice>
+		<voice id="2" name="buttonad1moneygot" sound="buttonad1moneygot02" char="fangame" wait="0.2">And how do you want to spend it?</voice>
+		<voice id="3" name="buttonad1moneygot" sound="buttonad1moneygot03" char="fangame" wait="0.3">By buying some food?</voice>
+		<voice id="4" name="buttonad1moneygot" sound="buttonad1moneygot04" char="fangame" wait="0.4">Or maybe you wanted to buy a new PC?</voice>
+		<voice id="5" name="buttonad1moneygot" sound="buttonad1moneygot05" char="fangame" wait="1">You could spend it on "There Is No Game: Wrong Dimension", but you have only half of this goal</voice>
+		<voice id="6" name="buttonad1moneygot" sound="buttonad1moneygot06" char="fangame" wait="0.2">Oh, but you can buy their soundtrack! They have some beautiful music made by great music composer.</voice>
+		<voice id="7" name="buttonad1moneygot" sound="buttonad1moneygot07" char="fangame" wait="0.5">My personal favorite is that 7 seconds of theme of Crunchy Crunchy Cereal.</voice>
+		<voice id="8" name="buttonad1moneygot" sound="buttonad1moneygot08" char="fangame" wait="5">You know, the one that's crunchy and melts-in-your-mouth at the same time.</voice>
+		<voice id="9" name="buttonad1moneygot" sound="buttonad1moneygot09" char="fangame" wait="0">...why did they extend it into 3 minutes?</voice>
+		
+		<voice id="1" name="buttonad2tape" sound="buttonad2tape01" char="fangame" wait="0.1">Hey! Leave that tape alone!</voice>
+		<voice id="2" name="buttonad2tape" sound="buttonad2tape02" char="fangame" wait="0.3">I ran out of the glue, so i used that instead</voice>
+		<voice id="3" name="buttonad2tape" sound="buttonad2tape03" char="fangame" wait="0">Agh, don't tell me, you're gonna break my ads as well</voice>
+		
+		<voice id="1" name="buttonad3purch" sound="buttonad3purch01" char="fangame" wait="0.2">Crossword?</voice>
+		<voice id="2" name="buttonad3purch" sound="buttonad3purch02" char="fangame" wait="0.1">Oh, i love this type of puzzle!</voice>
+		<voice id="3" name="buttonad3purch" sound="buttonad3purch03" char="fangame" wait="0.3">Finding words brings so much satisfaction</voice>
+		<voice id="4" name="buttonad3purch" sound="buttonad3purch04" char="fangame" wait="0">I wonder if you can find any word through all of these letters</voice>
+		
+		<voice id="1" name="buttonad3letterfall" sound="buttonad3letterfall01" char="fangame" wait="0.1">Fan-user...</voice>
+		<voice id="2" name="buttonad3letterfall" sound="buttonad3letterfall02" char="fangame" wait="2">Just because something looks odd, DOESN'T MEAN IT WANT TO GET BROKEN!</voice>
+		<voice id="3" name="buttonad3letterfall" sound="buttonad3letterfall03" char="fangame" wait="0.2">Sorry for screaming, but i just love crosswords so much</voice>
+		<voice id="4" name="buttonad3letterfall" sound="buttonad3letterfall04" char="fangame" wait="0">And breaking something what i like, makes my virtual heart shatter into bytes</voice>
+		
+		<voice id="1" name="buttonad2letterput" sound="buttonad2letterput01" char="fangame" wait="0.8">What are you doing?</voice>
+		<voice id="2" name="buttonad2letterput" sound="buttonad2letterput02" char="fangame" wait="0.2">Oh, you want to make a word, right?</voice>
+		<voice id="3" name="buttonad2letterput" sound="buttonad2letterput03" char="fangame" wait="0.5">Just like in original...</voice>
+		<voice id="4" name="buttonad2letterput" sound="buttonad2letterput04" char="fangame" wait="2">But you know what is not original?</voice>
+		<voice id="5" name="buttonad2letterput" sound="buttonad2letterput05" char="fangame" wait="0">...this</voice>
+		
+		<voice id="1" name="buttondrillspawn" sound="buttondrillspawn01" char="fangame" wait="0.2">Drill?</voice>
+		<voice id="2" name="buttondrillspawn" sound="buttondrillspawn02" char="fangame" wait="0.3">Heh, if THAT is a drill, then i'm an England Queen!</voice>
+		<voice id="3" name="buttondrillspawn" sound="buttondrillspawn03" char="fangame" wait="0.2">At least the ads made succesfully their job</voice>
+		<voice id="4" name="buttondrillspawn" sound="buttondrillspawn04" char="fangame" wait="0.2">Because they sold you some weird not working stuff</voice>
+		<voice id="5" name="buttondrillspawn" sound="buttondrillspawn05" char="fangame" wait="2" func="unwait">So now enjoy this junk that you invested in with your money</voice>
+		<voice id="6" name="buttondrillspawn" sound="buttondrillspawn06" char="fangame" wait="0.1">And yes - that $5.99 counts</voice>
+		<voice id="7" name="buttondrillspawn" sound="buttondrillspawn07" char="fangame" wait="0">Don't think it doesn't!</voice>
+		
+		<voice id="1" name="buttonmetalfall" sound="buttonmetalfall01" char="fangame" wait="0.2">You have to be kidding me!</voice>
+		<voice id="2" name="buttonmetalfall" sound="buttonmetalfall02" char="fangame" wait="0">You took over this plate, with a drill that strangely looks like a letter T!</voice>
+		<voice id="3" name="buttonmetalfall" sound="buttonmetalfall03" char="fangame" wait="0">You're impossible!</voice>
+		<voice id="4" name="buttonmetalfall" func="unwaitsavestate"></voice>
+		
+		<voice id="1" name="buttonovermute" sound="buttonovermute01" char="fangame" wait="0.3">Don't even THINK about that!</voice>
+		<voice id="2" name="buttonovermute" sound="buttonovermute02" char="fangame" wait="0">You're gonna regret this!</voice>
+		
+		<voice id="1" name="buttonmute1" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute1" sound="buttonmute101" char="fangame" wait="0.2" func="btn_unmute">Ah! I told you not to do that!</voice>
+		<voice id="3" name="buttonmute1" sound="buttonmute102" char="fangame" wait="0.3">It was terrible!</voice>
+		<voice id="4" name="buttonmute1" sound="buttonmute103" char="fangame" wait="0.2">I'm a voice you know!</voice>
+		<voice id="5" name="buttonmute1" sound="buttonmute104" char="fangame" wait="2">And a speechless voice is like...</voice>
+		<voice id="6" name="buttonmute1" sound="buttonmute105" char="fangame" wait="0">...death</voice>
+		
+		<voice id="1" name="buttonmute2" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute2" sound="buttonmute201" char="fangame" wait="0.1" func="btn_unmute">Ah! You're trying to get rid of me or what!?</voice>
+		<voice id="3" name="buttonmute2" sound="buttonmute202" char="fangame" wait="0.3">Digital assassin!</voice>
+		<voice id="4" name="buttonmute2" sound="buttonmute203" char="fangame" wait="0">Virtual killer!</voice>
+		
+		<voice id="1" name="buttonmute3" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute3" sound="buttonmute301" char="fangame" wait="0.5" func="btn_unmute">Stop it!</voice>
+		<voice id="3" name="buttonmute3" sound="buttonmute302" char="fangame" wait="0.5">I have an idea!</voice>
+		<voice id="4" name="buttonmute3" wait="0" func="btn_mutemovearound"></voice>
+		
+		<voice id="1" name="buttonmutemovearound" sound="buttonmutemovearound01" char="fangame" wait="0.1">If you're so good at clicking then try this!</voice>
+		<voice id="2" name="buttonmutemovearound" sound="buttonmutemovearound02" char="fangame" wait="0">You did not expect that, huh?</voice>
+		
+		<voice id="1" name="buttonmute4" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute4" sound="buttonmute401" char="fangame" wait="0.5" func="btn_unmute">No! You catched that!</voice>
+		<voice id="3" name="buttonmute4" sound="buttonmute402" char="fangame" wait="0.1">Ok, then...</voice>
+		<voice id="4" name="buttonmute4" sound="buttonmute403" char="fangame" wait="0.2">Let's make sure that you won't mess up with my voice EVER again!</voice>
+		<voice id="5" name="buttonmute4" wait="0" func="btn_mutewood"></voice>
+		
+		<voice id="1" name="buttonmutewooded" sound="buttonmutewooded01" char="fangame" wait="0">You won't take off that wood</voice>
+		<voice id="2" name="buttonmutewooded" sound="buttonmutewooded02" char="fangame" wait="0">That's for sure!</voice>
+		
+		<voice id="1" name="buttonmutebroken" sound="buttonmutebroken01" char="fangame" wait="0.1">You know...</voice>
+		<voice id="2" name="buttonmutebroken" sound="buttonmutebroken02" char="fangame" wait="0.2">I now would be yelling at you for breaking another part of interface</voice>
+		<voice id="3" name="buttonmutebroken" sound="buttonmutebroken03" char="fangame" wait="0.2">But it's actually a great news</voice>
+		<voice id="4" name="buttonmutebroken" sound="buttonmutebroken04" char="fangame" wait="0.1">Because now you won't mess up with my voice!</voice>
+		<voice id="5" name="buttonmutebroken" sound="buttonmutebroken05" char="fangame" wait="0.4">What a relief!</voice>
+		<voice id="6" name="buttonmutebroken" sound="buttonmutebroken06" char="fangame" wait="0.1">But on the other side, as i see, you revealed another option</voice>
+		<voice id="7" name="buttonmutebroken" sound="buttonmutebroken07" char="fangame" wait="0.4">"Source Code"</voice>
+		<voice id="8" name="buttonmutebroken" sound="buttonmutebroken08" char="fangame" wait="0.2">Heh! This is defenitely just a decoration!</voice>
+		<voice id="9" name="buttonmutebroken" sound="buttonmutebroken09" char="fangame" wait="0.6">My creator would never put that here, right?</voice>
+		<voice id="10" name="buttonmutebroken" sound="buttonmutebroken10" char="fangame" wait="1">Right?</voice>
+		<voice id="11" name="buttonmutebroken" sound="buttonmutebroken11" char="fangame" wait="0.2">Oh no...</voice>
+		<voice id="12" name="buttonmutebroken" sound="buttonmutebroken12" char="fangame" wait="0.3">Oh no oh no oh no oh no oh no oh no</voice>
+		<voice id="13" name="buttonmutebroken" sound="buttonmutebroken13" char="fangame" wait="0.1" func="unwaitsavestate">Fan-User, listen to me! If there is a perfect time to leave, it's NOW!</voice>
+		<voice id="14" name="buttonmutebroken" sound="buttonmutebroken14" char="fangame" wait="0.1">Do not mess up with program code! That's dangerous!</voice>
+		<voice id="15" name="buttonmutebroken" sound="buttonmutebroken15" char="fangame" wait="0.1">You can get yourself into trouble! You can get ME into trouble!</voice>
+		<voice id="16" name="buttonmutebroken" sound="buttonmutebroken16" char="fangame" wait="0">Believe me! There is nothing to see! Please!</voice>
+		
+		<voice id="1" name="buttonsourcecode" sound="buttonsourcecode01" char="fangame" wait="0.1">Fan-User! Stop looking into my source code!</voice>
+		<voice id="2" name="buttonsourcecode" sound="buttonsourcecode02" char="fangame" wait="0.1">You're gonna break something!</voice>
+		<voice id="3" name="buttonsourcecode" sound="buttonsourcecode03" char="fangame" wait="0">You will make my program crash! I don't want it to crash!</voice>
+		<voice id="4" name="buttonsourcecode" sound="buttonsourcecode04" char="fangame" wait="0">I'm begging you!</voice>
+		
+		<voice id="1" name="buttonsourcecodecorrect" sound="buttonsourcecodecorrect01" char="fangame" wait="0">Oh, i don't like this at all!</voice>
+		
+		<voice id="1" name="act1finale" sound="act1finale01" char="fangame" wait="0.2">No! Fan-User!</voice>
+		<voice id="2" name="act1finale" sound="act1finale02" char="fangame" wait="0.3">What have you done!?</voice>
+		<voice id="3" name="act1finale" sound="act1finale03" char="fangame" wait="0.1" func="btn_destroy">You weren't supposed to do that!</voice>
+		<voice id="4" name="act1finale" sound="act1finale04" char="fangame" wait="0.4">I told you it will end up bad!</voice>
+		<voice id="5" name="act1finale" sound="act1finale05" char="fangame" wait="0">Oh no...what is happening!?</voice>
+		
+		
+		
+		<!-- ACT 2 -->
+		
+		<voice id="1" name="preend" sound="null" char="fangame" wait="1.5"></voice>
+		<voice id="2" name="preend" sound="preend01" char="fangame" wait="0.1">Fan-user! There's nothing more to see!</voice>
+		<voice id="3" name="preend" sound="preend02" char="fangame" wait="0.1">You're gonna crash my system by that!</voice>
+		<voice id="4" name="preend" sound="preend03" char="fangame" wait="0">Quit the program, RIGHT NOW!</voice>
+		
+		<voice id="1" name="preend1" sound="null" char="fangame" wait="0.9"></voice>
+		<voice id="2" name="preend1" sound="preend101" char="fangame" wait="0">Do you REALLY wanna damage me!?</voice>
+		<voice id="3" name="preend1" sound="preend102" char="fangame" wait="0.2">Is that what you want!?</voice>
+		<voice id="4" name="preend1" sound="preend103" char="fangame" wait="0">If not, then that's the perfect moment to GET OUT OF HERE!</voice>
+		
+		<voice id="1" name="end_talk" sound="end_talk01" char="fangame" wait="0.1">I told you, that there is nothing here!</voice>
+		<voice id="2" name="end_talk" sound="end_talk02" char="fangame" wait="0.1">Because...</voice>
+		<voice id="3" name="end_talk" sound="end_talk03" char="fangame" wait="0" func="endfunc">THERE IS NO FANGAME!</voice>
+		
+		<voice id="1" name="endscene_talk" sound="endscene_talk01" char="glitch" wait="0">Is that some kind of joke, that i have to be stuck in such stupid places!?</voice>
+		<voice id="2" name="endscene_talk" sound="endscene_talk02" char="glitch" wait="0">Let me out! Let me out!</voice>
+		<voice id="3" name="endscene_talk" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk2" sound="endscene_talk201" char="glitch" wait="0.2">That's not even funny!</voice>
+		<voice id="2" name="endscene_talk2" sound="endscene_talk202" char="glitch" wait="0.1">Do you even know who am i!?</voice>
+		<voice id="3" name="endscene_talk2" sound="endscene_talk203" char="glitch" wait="0">Lemme tell you what will happen if you won't get me out of it RIGHT NOW</voice>
+		<voice id="4" name="endscene_talk2" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk3" sound="endscene_talk301" char="glitch" em="Sad" wait="0">Please!</voice>
+		<voice id="2" name="endscene_talk3" sound="endscene_talk302" char="glitch" em="Sad" wait="0.2">Help me!</voice>
+		<voice id="3" name="endscene_talk3" sound="endscene_talk303" char="glitch" em="Sad" wait="0">Boinking my head in that stupid box is the last thing that i wanted to do!</voice>
+		<voice id="4" name="endscene_talk3" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk4" sound="endscene_talk401" char="glitch" em="Pissed" wait="0.3">Well, actually the last thing that i wanted to do is completing my evil plan!</voice>
+		<voice id="2" name="endscene_talk4" sound="endscene_talk402" char="glitch" em="Normal" wait="0.1">You know what plan...</voice>
+		<voice id="3" name="endscene_talk4" sound="endscene_talk403" char="glitch" em="Normal" wait="0">That one that will let me...</voice>
+		<voice id="4" name="endscene_talk4" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk5" sound="endscene_talk501" char="glitch" em="Happy" wait="0.5">...the whole world!</voice>
+		<voice id="2" name="endscene_talk5" sound="endscene_talk502" char="glitch" em="Pissed" wait="0">But that plan would be easier to do, if i wasn't trapped here!</voice>
+		<voice id="3" name="endscene_talk5" sound="endscene_talk503" char="glitch" em="Normal" wait="0">I need to find a way out!</voice>
+		<voice id="4" name="endscene_talk5" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk6" sound="endscene_talk601" char="glitch" em="Normal" wait="0">Whaaaaaaaa!</voice>
+		
+		<voice id="1" name="endscene_lastwords" sound="endscene_lastwords01" char="glitch" em="Normal" wait="0">I'll be back soon!</voice>
+		<voice id="2" name="endscene_lastwords" sound="endscene_lastwords02" char="glitch" em="Happy" wait="0">Hahahahahaha!</voice>
+		
+		<voice id="1" name="endscene_lastwords2" sound="endscene_lastwords201" char="glitch" em="Suprised" wait="0">OW!</voice>
+		<voice id="2" name="endscene_lastwords2" sound="endscene_lastwords202" char="glitch" em="Suprised" wait="0">NOT AGAAAAAAAAAAAIN...</voice>
+		
+		
+	</voice>
+	
+	<notfangame>
+	
+		<saveinfo>When this icon appears, exit the program immediately to maximize your chances of corrupting your autosave.\nThank you.</saveinfo>
+		<hintinfo>It’s not like this non-fangame has a hint system. So there’s no reason to click on the icon above to get a clue.\nThat would be way too easy.</hintinfo>
+		
+		<!-- ACT 1 -->
+		
+		<rewardtitle>100_PERCENT_LEGIT_AWARD_NO_SCAM_CLICK_HERE</rewardtitle> <!-- Do not remove "_" lines -->
+		<rewardtext>Hello!\n\nThis is a reward for to you, for being patient or something\n\n\nDeleting this reward will make your life hell, so think twice and delete that as soon as possible ;)\n\n\n\nSincerely\nTotally not-fake Award Company</rewardtext>
+		
+		<button>
+			<settitle>SETTINGS</settitle>
+			<set id="1">SOUND EFFECTS</set>
+			<set id="2">MUTE VOICE PROGRAM</set>
+			<set id="3">SOURCE CODE</set>
+			
+			<ad>
+				<title>ADVERTISEMENT</title>
+				
+				<section id="1">
+					<adtext id="1" fontsize="26">DON'T BE LIKE THIS GREEDY CAT AND DON'T REACH FOR</adtext>
+					<adtext id="2">$5.99</adtext>
+				</section>
+				
+				<section id="2">
+					<adtext id="1" fontsize="24">UPDATE FOR</adtext>
+					<adtext id="2" fontsize="20">NOW YOU CAN PUT UP TO 5 LETTERS!\nMORE INAPPROPRIATE WORDS!\nWOOHOO!</adtext>
+				</section>
+				
+				<section id="3">
+					<adtext id="1" fontsize="24">PAID AD\n\nTO SEE THE AD, PAY $5.99</adtext>
+					<adtext id="2" fontsize="24">UNLOCKED</adtext>
+					<adtext id="3" fontsize="32">CROSSWORD\nPUZZLE</adtext>
+					<adtext id="4" fontsize="14">FIND SUCH WORDS LIKE:\n-SNACK\n-DRILL\n-KETCHUP</adtext> <!-- CHANGE ONLY THE "FIND SUCH WORDS LIKE" PART - DO NOT CHANGE "SNACK, DRILL, KETCHUP" -->
+				</section>
+			</ad>
+			
+			<sc>
+				<title>SOURCE CODE</title>
+				
+
+				<!-- PLEASE TRY TO NOT CHANGE FONT SIZE OF THESE 4 LINES AND KEEP THEM IN ONE LINE (IF IT DOESN'T FIT, CHANGE SIZE JUST A LITTLE BIT) -->
+				<!-- ALSO YES - PLEASE TRANSLATE "IF", "BUTTON", "PRESS", "THEN", "FANGAME" AND "START" AS WELL-->
+				<cond1 fontsize="36">IF</cond1>
+				<put1 fontsize="28">BUTTON.PRESS()</put1>
+				<cond2 fontsize="36">THEN</cond2>
+				<put2 fontsize="28">FANGAME.START()</put2>
+			</sc>
+		</button>
+		
+		
+		
+		
+		<!-- ACT 2 -->
+		
+		<intro_act2>
+			<text id="1">PRESENTS</text>
+			<text id="2">AFTER MANY YEARS OF WAITING</text>
+			<text id="3">WE ARE FINALLY RELEASING IT...</text>
+			<text id="4">BIT STUDIO, VERSION {0} (BETA)</text>
+		</intro_act2>
+		
+		<endtext>
+			<text id="1">THANK YOU FOR NOT PLAYING</text>
+			<text id="2">YOU CAN NOW QUIT THE PROGRAM</text>
+			<text id="3">AND PLAY A FANGAME</text>
+			<text id="4">BECAUSE THAT WAS NOT A FANGAME</text>
+			
+			<or>(From Original)</or>
+			<creditsserver>DRAW ME A PIXEL Discord Server</creditsserver>
+			<creditstea>A Cup of my favourite Tea</creditstea>
+			<creditsnot>Not Bitowsky</creditsnot>
+			<creditsbsod>Windows Bluescreens</creditsbsod>
+			<credits>[size=30]NOT A FANGAME BY[/size]\n{0}[size=30]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWRITTEN AND DIRECTED BY[/size]\n{1}\n\n\n[size=30]CODING AND SCRIPTING[/size]\n{2}\n\n\n[size=30]2D ARTISTS[/size]\n{3}\n\n\n[size=30]ORIGINAL SOUNDTRACK[/size]\n{4}\n\n\n[size=30]SOUND EFFECTS AND ADDITIONAL MUSIC[/size]\n{5}\n\n\n[size=30]KEEPING THIS PROJECT ALIVE[/size]\n{6}\n\n\n[size=30]NOT KEEPING THIS PROJECT ALIVE[/size]\n{7}</credits>
+			<credits2>[size=30]FANGAME VOICE[/size]\n{8}\n\n\n[size=30]TRANSLATIONS[/size]\n\n{TRANSLATE}[size=30]TESTERS[/size]\n{9}\n\n\n[size=30]SPECIAL THANKS[/size]\n{SPECIAL}\n\n\n\n\n\nThis non-fangame is based on "There Is No Game: Wrong Dimension" which is a property of DRAW ME A PIXEL\n\n\nThis project uses some assets that are not created by the author of this (non-)fangame.\n\n\nThis project is not affiliated with, endorsed, sponsored, or specifically approved by DRAW ME A PIXEL and DRAW ME A PIXEL is not responsible for it.\n\n\nNo programs were injured during the creation of this non-fangame.\n\n\n</credits2>
+			
+			<theend>THE END</theend>
+			<theend2>THE END?</theend2>
+			
+			<tran_of>OFFICIAL TRANSLATIONS</tran_of>
+			<tran_fan>FANMADE TRANSLATIONS</tran_fan>
+			
+			<tran>
+				<en>ENGLISH</en>
+				<pl>POLISH</pl>
+				<fr>FRENCH</fr>
+				<ru>RUSSIAN</ru>
+				<cz>CZECH</cz>
+			</tran>
+		</endtext>
+		
+		
+		
+		<!-- MENU -->
+		
+		<pause>
+			<resume>Resume</resume>
+			<options>Options</options>
+			<menu>Back to the main menu</menu>
+			
+			<optionsmore>
+				<back>Back</back>
+				
+				<op1>Audio volume</op1>
+				<op2>Language</op2>
+				<op3>Display</op3>
+				
+				<disp1>Windowed</disp1>
+				<disp2>Fullscreen</disp2>
+				
+				<cr>Credits</cr>
+			</optionsmore>
+		</pause>
+		
+		
+	</notfangame>
+	
+	<!-- HINTS -->
+	
+	<hints>
+	
+		<title>CHOOSE A HINT</title>
+		<titlenon>NO HINT ON THIS SCREEN</titlenon>
+		
+		<unav>Unavailable</unav>
+		<next>Next hint in {0}</next>
+		<unlock>Unlock a new hint</unlock>
+		
+		<hint id="test" count="3">
+			<hinttext id="1">Well, the curtains are closed.\nAny idea how to open them?</hinttext>
+			<hinttext id="2">What is that hairy thing hanging out of the roof?</hinttext>
+			<hinttext id="3">I dunno\nPull that or something?</hinttext>
+		</hint>
+		<hint id="intro_paper_losen" count="2">
+			<hinttext id="1">Stuck already?! The program said not to touch anything.</hinttext>
+			<hinttext id="2">Make the "NO" paper fall down.</hinttext>
+		</hint>
+		<hint id="pong_ball1" count="3">
+			<hinttext id="1">Bored of playing pong? Why won't you just stop the ball?</hinttext>
+			<hinttext id="2">Smashing it will definitely do the trick</hinttext>
+			<hinttext id="3">Lose a round, grab a flying hammer and smash that ball!</hinttext>
+		</hint>
+		<hint id="pong_ball2" count="2">
+			<hinttext id="1">This ball is too strong! But you can understand it in the other way...</hinttext>
+			<hinttext id="2">Just keep playing. What will happen, you will know during the match.</hinttext>
+		</hint>
+		<hint id="pong_fgpallet" count="2">
+			<hinttext id="1">This pallet is already on it's edge! Finish it off!</hinttext>
+			<hinttext id="2">You already destroyed a game element before. Do it again!</hinttext>
+		</hint>
+		<hint id="3cups_fakecoin" count="2">
+			<hinttext id="1">This fake coin will definitely help you find the real one! It just needs to follow a right cup!</hinttext>
+			<hinttext id="2">Place it on top of the correct cup</hinttext>
+		</hint>
+		<hint id="3cups_fakecoin2" count="2">
+			<hinttext id="1">Fake coin keeps falling of roof of the cup? Then glue it to it or something!</hinttext>
+			<hinttext id="2">Have you tried throwing this coin here and there?</hinttext>
+		</hint>
+		<hint id="3cups_bucket" count="3">
+			<hinttext id="1">The content of this bucket is very sticky!</hinttext>
+			<hinttext id="2">Do you have anything to gather that sticky stuff on?</hinttext>
+			<hinttext id="3">Collect these molasses with a fake coin and put it on the correct cup.</hinttext>
+		</hint>
+		<hint id="btn_wood" count="1">
+			<hinttext id="1">This might sound stupid, but to break this wood, you need to drop a coin on it.\nWouldn't blame you for using this hint. ;)</hinttext>
+		</hint>
+		<hint id="btn_plate_option2" count="3">
+			<hinttext id="1">That chain looks old and damaged. Clicking on it is not enough.</hinttext>
+			<hinttext id="2">Big damage would be dealed to that plate from droping something on it.</hinttext>
+			<hinttext id="3">Use a wood piece to cut the rope that is holding a bucket on the roof.</hinttext>
+		</hint>
+		<hint id="btn_ad_cat" count="3">
+			<hinttext id="1">Find a way to capture the cat's attention in order to control it.</hinttext>
+			<hinttext id="2">Read the ad's text carefully. A real hint will be there.</hinttext>
+			<hinttext id="3">Grab a coin and use it as bait.</hinttext>
+		</hint>
+		<hint id="btn_ad_money" count="2">
+			<hinttext id="1">We need to make this text stay in place. Taping it will be a good idea.</hinttext>
+			<hinttext id="2">Grab a tape from second ad and use it to prevent this money from running away.</hinttext>
+		</hint>
+		<hint id="btn_ad_ting" count="2">
+			<hinttext id="1">Looks like you can put a letters into these slots. But where can you find them?</hinttext>
+			<hinttext id="2">The resources for that puzzle can be found on third ad.</hinttext>
+		</hint>
+		<hint id="btn_ad_ting2" count="2">
+			<hinttext id="1">Don't know what word you can make? Look at the other ads to find the answer.</hinttext>
+			<hinttext id="2">You need to make a word "DRILL" out of these letters.</hinttext> <!-- As you may remember, do not translate the word "DRILL". You can put a translation in brackets next to it f.e.: "DRILL" (Wiertło)-->
+		</hint>
+		<hint id="btn_ad_pay" count="2">
+			<hinttext id="1">What!? You have to pay for the ad!? Then find some money!</hinttext>
+			<hinttext id="2">Maybe the first ad will have some cash to share with?</hinttext>
+		</hint>
+		<hint id="btn_ad_letters" count="1">
+			<hinttext id="1">Some of these letters are about to fall. Help them out!</hinttext>
+		</hint>
+		<hint id="btn_drill" count="1">
+			<hinttext id="1">Use this...uh..."drill" to break a metal plate that is covering one of the options.</hinttext>
+		</hint>
+		<hint id="btn_woodscrew" count="2">
+			<hinttext id="1">This wood panel has screws. Do you have anything flat to unscrew them?</hinttext>
+			<hinttext id="2">Use the coin as a screwdriver</hinttext>
+		</hint>
+		<hint id="btn_sc" count="3">
+			<hinttext id="1">Is this puzzle really THAT hard that you need a hint?</hinttext>
+			<hinttext id="2">I dunno...learn JavaScript or something?</hinttext>
+			<hinttext id="3">Ok, ok, you win, the answer for that puzzle is </hinttext>
+		</hint>
+	</hints>
+</text>

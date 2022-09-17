@@ -1,0 +1,7 @@
+LANGID,LANGNAME,ORDER,LANGFILE,LANGDATA,TITLEX,TITLEY,ISFANMADE,DISABLED
+EN,"ello my fella, would ya like to drin sum wat’ r?",1,text_en.xml,,500,200,,
+PL,„dawać losowe polskie słowo które trafi do mojej gry right now” – Bitowsky | „Dźwig” – Slavista | „papryka” – Rose | ,2,text_pl.xml,,1100,350,,
+RU,ja ne panemaje blyat babushka,3,text_ru.xml,,700,500,,
+FR,baguette,4,,,1300,650,,
+FAN,a,5,,,-500,-500,TRUE,TRUE
+FAN2,a,6,,,-500,-500,TRUE,TRUE

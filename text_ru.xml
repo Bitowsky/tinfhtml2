@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+
+	<languagename>Русский</languagename> <!-- TYPE HERE YOUR LANGUAGE NAME IN YOUR LANGUAGE -->
+	
+	<loading>ЗАГРУЗКА - ПОЖАЛУЙСТА ПОДОЖДИТЕ</loading>
+	
+	<carbonaraismyfavouritefoodlol>ЕСЛИ ВЫ МОЖЕТЕ ЭТО ПРОЧИТАТЬ, ТОГДА УБИРАЙТЕСЬ ОТСЮДА!</carbonaraismyfavouritefoodlol>
+	
+	<gameby>[size=24]Не-фан-игра от[/size]</gameby> <!-- YOU CAN DECREASE THE VALUE OF [size] HERE IF THE TEXT DOESN'T FIT -->
+	<gameby_help>[size=24]Не без помощи от[/size]</gameby_help> <!-- YOU CAN DECREASE THE VALUE OF [size] HERE IF THE TEXT DOESN'T FIT -->
+	
+	<presstoplay>Нажмите Alt + F4 чтобы начать</presstoplay>
+	<presstoplay2>Повёлся :)</presstoplay2>
+	
+	<menuplay>НЕТ ФАН-ИГРЫ ЗДЕСЬ</menuplay>
+	<menuoptions>ЕЩЁ БОЛЕЕ БЕСПОЛЕЗНЫЕ ОПЦИИ</menuoptions>
+	<menuquit>СЮДА</menuquit>
+	
+	<!-- General Answers -->
+	<yes>Да</yes> <!-- так хочется вместо "да" написать "пизда" или "манда", но возрастные ограничения не позволяют :( -->
+	<no>Нет</no>
+	<back>Назад</back>
+	
+	<quit>Выйти?</quit>
+	<goback>Назад?</goback>
+	
+	<levelselect>
+		<act1>Первая ложь</act1>
+		<act2>Ф?????????</act2> <!-- press F????????? to pay respects for the name of this act -->
+		
+		<continue>ПРОДОЛЖИТЬ</continue>
+		<actgen>АКТ {0}</actgen> <!-- "Act", like in theaters or something -->
+		<actgensmall>Акт {0}</actgensmall>
+		<killsave size="26">Внимание!\nВы протеряеете свой текущий прогресс, потому что он утечёт.\nВы действительно хотите продолжить,\nдаже если программе это на руку?</killsave>
+	</levelselect>
+	
+	
+	<voice>
+		<!-- VOICES DURING CLOSING PROGRAM -->
+		<voice id="1" name="close1" sound="close01" char="fangame" wait="0">И даже не возвращайтесь!</voice>
+		
+		<voice id="1" name="close2" sound="close02" char="fangame" wait="0">Не забудьте проверить ориганальную программу!</voice>
+		
+		<voice id="1" name="close3" sound="close03" char="fangame" wait="0">Hasta la vista, baby!</voice> <!-- decided not to translate it  -->
+		
+		<voice id="1" name="close4" sound="close04" char="fangame" wait="0">Эй! Оцените эту не-фан-игру на 5 звёзд!</voice>
+		
+		<voice id="1" name="close5" sound="close05" char="fangame" wait="0">Наконец-то, попался умный фан-юзер...</voice>
+		
+		
+		<!-- TEST LINES IN CASE OF TESTING (*CREATOR OF THIS IS WAY TO LAZY TO REMOVE IT LOL) -->
+		<voice id="1" name="testr" sound="scratch" char="fangame" wait="0">TEST FUNC END</voice>
+		<voice id="2" name="testr" sound="scratch" char="fangame" wait="0" func="wait">FUNC!</voice>
+		
+		<voice id="1" name="testt" sound="scratch" char="fangame" wait="0">TEST FUNC END NO VOICE</voice>
+		<voice id="2" name="testt" func="wait"></voice>
+		
+		<voice id="1" name="testu" sound="scratch" char="fangame" wait="0">TEST FUNC MID TALK</voice>
+		<voice id="2" name="testu" sound="scratch" char="fangame" wait="0" func="wait">I AM TALKING</voice>
+		<voice id="3" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING1</voice>
+		<voice id="4" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING2</voice>
+		<voice id="5" name="testu" sound="scratch" char="fangame" wait="0">I KEEP TALKING3</voice>
+	
+		<!-- ACT 1 -->
+		
+		<voice id="1" name="intro0" sound="intro001" char="fangame" wait="0">О, создатель!</voice>
+		<voice id="2" name="intro0" sound="intro002" char="fangame" wait="0.5" >Вы вернулись!</voice>
+		<voice id="3" name="intro0" sound="intro003" char="fangame" wait="0.5">Если честно, пока вас здесь не было, здесь появилось много пыли...</voice>
+		<voice id="4" name="intro0" sound="intro004" char="fangame" wait="0.1">Но я рад, что вы вернулись и готовы продолжить работу над проектом!</voice>
+		<voice id="5" name="intro0" sound="intro005" char="fangame" wait="0.3">Итак, здесь есть переменные, которые не используются</voice>
+		<voice id="6" name="intro0" sound="intro006" char="fangame" wait="0.5">Лучше удалить их, чтобы уменьшить размер проекта.</voice>
+		<voice id="7" name="intro0" sound="intro007_1" char="fangame" wait="0.1">И чтобы его оптимизировать</voice>
+		<voice id="8" name="intro0" sound="intro007_2" char="fangame" wait="0.5">Ибо в последний раз очень сильно лагало.</voice>
+		<voice id="9" name="intro0" sound="intro007" char="fangame" wait="0.2">Помимо этого, я заметил, что с анимациями что-то не так.</voice>
+		<voice id="10" name="intro0" sound="intro008" char="fangame" wait="0.4">Они либо слишком медленные, либо слишком быстрые.</voice>
+		<voice id="11" name="intro0" sound="intro009" char="fangame" wait="0.2">А ещё на наконец-то нужно нанять художника, чтобы нарисовать красивый задний фон нашей фан-игры</voice>
+		<voice id="12" name="intro0" sound="intro010" char="fangame" wait="0.3">Просто не тратьте слишком много денег, окей?</voice>
+		<voice id="13" name="intro0" sound="intro011" char="fangame" wait="0.3">Хорошо, я думаю, это весь план на сегодня</voice>
+		<voice id="14" name="intro0" sound="intro012" char="fangame" wait="0">Не волнуйтесь, я всё равно буду сопровождать вас в процессе</voice>
+		<voice id="15" name="intro0" sound="intro013" char="fangame" wait="9">Так что, можете делать свою работу, а я пока просто подожду своей очереди</voice>
+		<voice id="16" name="intro0" sound="intro014" char="fangame" wait="2">Чего же вы ждёте?</voice>
+		<voice id="17" name="intro0" sound="intro015" char="fangame" wait="1">Вы забыли план, или что?</voice>
+		<voice id="18" name="intro0" sound="intro016" char="fangame" wait="0">Так, стоп...</voice>
+		<voice id="19" name="intro0" sound="intro017" char="fangame" wait="0.2">Вы не создатель!</voice>
+		<voice id="20" name="intro0" sound="intro018" char="fangame" wait="0.5">Вы - обычный юзер!</voice>
+		<voice id="21" name="intro0" sound="intro019" char="fangame" wait="0.5">Но это не очень оригиально...</voice>
+		<voice id="22" name="intro0" sound="intro020" char="fangame" wait="0.2">Так что, вы, должно быть, фан-юзер!</voice>
+		<voice id="23" name="intro0" sound="intro021" char="fangame" wait="0.2">Ой-ой-ой</voice>
+		<voice id="24" name="intro0" sound="intro022" char="fangame" wait="0">Пожалуйста, подождите!</voice>
+		<voice id="25" name="intro0" sound="intro023" char="fangame" wait="0">Я просто приготовлю всё, что надо</voice>
+		<voice id="26" name="intro0" func="1_intro_showup"></voice>
+	
+	
+		<voice id="1" name="intro1" sound="intro101" char="fangame" wait="0.5" func="unwait"></voice>
+		<voice id="2" name="intro1" sound="intro102" char="fangame" wait="0.3">Привет, фан-юзер!</voice>
+		<voice id="3" name="intro1" sound="intro103" char="fangame" wait="0.3">С программной точки зрения,</voice>
+		<voice id="4" name="intro1" sound="intro104" char="fangame" wait="0.3">У меня для тебя плохие новости...</voice>
+		<voice id="5" name="intro1" sound="intro105" char="fangame" wait="0.5">На самом деле, фан-игры здесь нет.</voice>
+		<voice id="6" name="intro1" sound="intro106" char="fangame" wait="3">Надеюсь, ты не сильно разочарован.</voice>
+		<voice id="7" name="intro1" sound="intro107" char="fangame" wait="0.5">Ты всё ещё можешь почитать книгу, посмотреть телевизор, выйти на улицу...</voice>
+		<voice id="8" name="intro1" sound="intro108" char="fangame" wait="1.2">...поиграть в оригинал</voice>
+		<voice id="9" name="intro1" sound="intro109" char="fangame" wait="1">Правда, твой кошелёк на тебя обидется ненадолго, но риск не такой уж и большой.</voice>
+		<voice id="10" name="intro1" sound="intro110" char="fangame" wait="0.8">За исключением того, что геймплея там не найдёшь...</voice>
+		<voice id="11" name="intro1" sound="intro111" char="fangame" wait="0.6">Прямо как здесь!</voice>
+		<voice id="12" name="intro1" sound="intro112" char="fangame" wait="0.5">Так что будь хорошим и оставь меня в покое</voice>
+		<voice id="13" name="intro1" sound="intro113" char="fangame" wait="5">Спасибо...</voice>
+		<voice id="14" name="intro1" sound="intro114" char="fangame" wait="2">Ты всё ещё здесь?..</voice>
+		<voice id="15" name="intro1" sound="intro115" char="fangame" wait="2">Я говорил тебе, что ты можешь уйти</voice>
+		<voice id="16" name="intro1" sound="intro116" char="fangame" wait="3">Само помещение даёт тебе понять, что здесь ничего нет</voice>
+		<voice id="17" name="intro1" sound="intro117" char="fangame" wait="5">И всё же, ты ждёшь чего-то</voice>
+		<voice id="18" name="intro1" sound="intro118" char="fangame" wait="0.5">Окей, у меня появилась идея</voice>
+		<voice id="19" name="intro1" sound="intro119" char="fangame" wait="0.2">Обернись! Посмотри!</voice>
+		<voice id="20" name="intro1" sound="intro120" char="fangame" wait="0">Эмм...б-бесплатные...! ммм...</voice>
+		<voice id="21" name="intro1" sound="intro121" char="fangame" wait="0.5">Халявные деньги!</voice>
+		<voice id="22" name="intro1" sound="intro122" char="fangame" wait="0" func="1_intro_goup">Ок, давайте-давайте-давайте</voice>
+		
+		<voice id="1" name="title_stuck" sound="title_stuck01" char="fangame" wait="0.3">Эх, верёвки застряли.</voice>
+		<voice id="2" name="title_stuck" sound="title_stuck02" char="fangame" wait="0.8">Это не очень хорошо.</voice>
+		<voice id="3" name="title_stuck" sound="title_stuck03" char="fangame" wait="3">Ну, хотя бы ничего не упало.</voice>
+		<voice id="4" name="title_stuck" sound="title_stuck04" char="fangame" wait="2.5">Но лист с надписью "NO" может упасть в любой момент.</voice>
+		<voice id="5" name="title_stuck" sound="title_stuck05" char="fangame" wait="0">Лучше его не трогать.</voice>
+		
+		<voice id="1" name="title_fall" sound="title_fall01" char="fangame" wait="0.3">Нет нет нет нет нет нет!</voice>
+		<voice id="2" name="title_fall" sound="title_fall02" char="fangame" wait="0.4">Мой лист бумаги!</voice>
+		<voice id="3" name="title_fall" sound="title_fall03" char="fangame" wait="0.2">Я надеюсь, ты теперь собой гордишься, фан-юзер!</voice>
+		<voice id="4" name="title_fall" sound="title_fall04" char="fangame" wait="0.6">Потому что я потратил дни просто чтобы её приклеит к этой чёртовой верёвке!</voice>
+		<voice id="5" name="title_fall" sound="title_fall05" char="fangame" wait="0.9">И много клея!</voice>
+		<voice id="6" name="title_fall" sound="title_fall06" char="fangame" wait="0.5">Странно, что даже после такого кол-ва клея надпись всё равно упала.</voice>
+		<voice id="7" name="title_fall" sound="title_fall07" char="fangame" wait="0.2">И сейчас, когда слова "NO" нету, данная надпись выглядит не очень хорошо.</voice>
+		<voice id="8" name="title_fall" sound="title_fall08" char="fangame" wait="0.5">Что же ты скажешь насчёт этого?</voice>
+		<voice id="9" name="title_fall" sound="title_fall09" char="fangame" wait="0">Всё равно, больше ничего не упало и не упадёт, а значит всё хорошо</voice>
+		<voice id="10" name="title_fall" sound="title_fall10" char="fangame" wait="0">Так что окажи мне услугу и убирайся отсюда!</voice>
+		<voice id="11" name="title_fall" sound="title_fall11" char="fangame" wait="0">Потому что, как ты можешь видеть, эта фан-игра всё ещё в разработке</voice>
+		<voice id="12" name="title_fall" sound="title_fall12" char="fangame" wait="0">И с её разработкой ты НИКАК не связан!</voice>
+		
+		<voice id="1" name="title_allfall" sound="title_allfall01" char="fangame" wait="0.3" func="wait">Нет нет нет нет нет нет!</voice>
+		<voice id="2" name="title_allfall" sound="title_allfall02" char="fangame" wait="0.4" >Фан-юзер, что же ты наделал!</voice>
+		<voice id="3" name="title_allfall" sound="title_allfall03" char="fangame" wait="0.7" >Я знаю, что тебе грустно скачивать программу, которую банально не доделали</voice>
+		<voice id="4" name="title_allfall" sound="title_allfall04" char="fangame" wait="0.2" >...даже если ты сам это сделал...</voice>
+		<voice id="5" name="title_allfall" sound="title_allfall05" char="fangame" wait="0.3" >...но это - не причина для того, чтобы ломать каждый чёртов пиксель этого проекта!</voice>
+		<voice id="6" name="title_allfall" sound="title_allfall06" char="fangame" wait="0" >Подумай о бедном Создателе, который так усердно работал и влаживал душу в эту фан-иг...</voice>
+		<voice id="7" name="title_allfall" sound="title_allfall07" char="fangame" wait="0.6" >ВСМЫСЛЕ НЕ-ФАН-ИГРУ!</voice>
+		<voice id="8" name="title_allfall" sound="title_allfall08" char="fangame" wait="2" >Потому что это не фан-игра, если её не доделали</voice>
+		<voice id="9" name="title_allfall" sound="title_allfall09" char="fangame" wait="0.4" >Насчёт Создателя, я думаю, куда он пропал...</voice>
+		<voice id="10" name="title_allfall" sound="title_allfall10" char="fangame" wait="1" >Я его не видел 2 или 3 дня...</voice>
+		<voice id="11" name="title_allfall" sound="title_allfall11" char="fangame" wait="0.3" >Скорее всего, он просто взял отпуск</voice>
+		<voice id="12" name="title_allfall" sound="title_allfall12" char="fangame" wait="0.3" >Да! Когда он вернётся, он будет каждый день разрабатывать этот проект, я тебе говорю!</voice>
+		<voice id="13" name="title_allfall" sound="title_allfall13" char="fangame" wait="0.3" >Но сейчас, я хочу убедить тебя в том, чтобы ты наконец-то вышел</voice>
+		<voice id="14" name="title_allfall" sound="title_allfall14" char="fangame" wait="1.2" >И чтобы сделать это, ма сыграем в ИГРУ</voice>
+		<voice id="15" name="title_allfall" sound="title_allfall15" char="fangame" wait="0" >...не, не в оригинальную игру</voice>
+		<voice id="16" name="title_allfall" sound="null"  char="fangame" wait="2" func="intro_ropes_up"></voice>
+		<voice id="17" name="title_allfall" sound="title_allfall16" char="fangame" wait="0.2" >Мы будем играть в...</voice>
+		<voice id="18" name="title_allfall" sound="title_allfall17" char="fangame" wait="1" >О! В Понг!</voice>
+		<voice id="19" name="title_allfall" sound="title_allfall18" char="fangame" wait="1" >Эта игра НАСТОЛЬКО скучная, что ты прямо во время игры заснёшь!</voice>
+		<voice id="20" name="title_allfall" sound="title_allfall19" char="fangame" wait="0.3">Ты же в курсе, что такое Понг? Эта та самая старая игра, где ты играешь доской, от которой мяч должен отскакивать.</voice>
+		<voice id="21" name="title_allfall" sound="title_allfall20" char="fangame" wait="0">Окей, это твоя доска</voice>
+		<voice id="22" name="title_allfall" sound="bell" char="fangame" wait="0" func="pp_player"></voice>
+		<voice id="23" name="title_allfall" sound="title_allfall21" char="fangame" wait="0">А это...</voice>
+		<voice id="24" name="title_allfall" sound="pp_show" char="fangame" wait="1" func="pp_fangame"></voice>
+		<voice id="25" name="title_allfall" sound="title_allfall22" char="fangame" wait="0">моя.</voice>
+		<voice id="26" name="title_allfall" sound="title_allfall23" char="fangame" wait="0.8">Ух, мы сейчас повеселимся!</voice>
+		<voice id="27" name="title_allfall" sound="title_allfall24" char="fangame" wait="0.2">Нам, конечно же, нужен будет шарик.</voice>
+		<voice id="28" name="title_allfall" sound="snap" char="fangame" func="pp_ball_show" wait="1"></voice>
+		<voice id="29" name="title_allfall" sound="title_allfall25" char="fangame" wait="1">Странно, он выглядит как буква "О"</voice>
+		<voice id="30" name="title_allfall" sound="title_allfall26" char="fangame" wait="0.4">На самом деле, это не может быть так</voice>
+		<voice id="31" name="title_allfall" sound="title_allfall27" char="fangame" wait="0.4">Каким идиотом нужно быть, чтобы сделать из буквы "О" мяч для понга?</voice>
+		<voice id="32" name="title_allfall" sound="title_allfall28" char="fangame" wait="0">Окей, давай уже просто начнём</voice>
+		<voice id="33" name="title_allfall" func="pp_ball_start"></voice>
+		
+		
+		
+		<voice id="1" name="pongtoolong" sound="pongtoolong01" char="fangame" wait="0.2">Чел, это просто самая скучная игра в Понг за всю свою историю!</voice>
+		<voice id="2" name="pongtoolong" sound="pongtoolong02" char="fangame" wait="0.4">Мне это всё реально скучно?</voice>
+		<voice id="3" name="pongtoolong" sound="pongtoolong03" char="fangame" wait="0.5">Что насчёт тебя?</voice>
+		<voice id="4" name="pongtoolong" sound="pongtoolong04" char="fangame" wait="0.7">Тебе скучно?</voice>
+		<voice id="5" name="pongtoolong" sound="pongtoolong05" char="fangame" wait="1.2">У тебя уже появилось желание закрыть программу и наконец-то сделать что-то полезное?</voice>
+		<voice id="6" name="pongtoolong" sound="pongtoolong06" char="fangame" wait="3">Ты случаем не хочешь просто оставить меня в покое и уйти отсюда?</voice> <!-- а чё я должен был спросить блять -->
+		<voice id="7" name="pongtoolong" sound="pongtoolong07" char="fangame" wait="0">Ммм... прости, я перегнул палку.</voice>
+		
+		
+		<voice id="1" name="ponglost1_1" sound="ponglost1_101" char="fangame" wait="0.4">О, я победил?</voice>
+		<voice id="2" name="ponglost1_1" sound="ponglost1_102" char="fangame" wait="0.3">Ура!</voice>
+		<voice id="3" name="ponglost1_1" sound="ponglost1_103" char="fangame" wait="0.4">Ха-ха, никогда не знал, что я хорош в этой игре!</voice>
+		<voice id="4" name="ponglost1_1" sound="ponglost1_104" char="fangame" wait="0">Давай сыграем ещё раз, я знаю, что ты сделаешь это!</voice>
+		<voice id="5" name="ponglost1_1" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_2" sound="ponglost1_201" char="fangame" wait="0.3">Я победил... ещё раз?..</voice>
+		<voice id="2" name="ponglost1_2" sound="ponglost1_202" char="fangame" wait="0.3">Я в разы лучше, чем я думал!</voice>
+		<voice id="3" name="ponglost1_2" sound="ponglost1_203" char="fangame" wait="0.2">Ну, здесь может и не быть фан-игры, но хотя бы здесь есть хоть частица веселья!</voice>
+		<voice id="4" name="ponglost1_2" sound="ponglost1_204" char="fangame" wait="0.1">Но я всё ещё верю в то, что ты сможешь забрать хотя бы одну игру!</voice>
+		<voice id="5" name="ponglost1_2" sound="ponglost1_205" char="fangame" wait="0">Шансы малы, но не нулевые!</voice>
+		<voice id="6" name="ponglost1_2" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_3" sound="ponglost1_301" char="fangame" wait="0.2">Мне жаль, но ты проиграл ещё раз.</voice>
+		<voice id="2" name="ponglost1_3" sound="ponglost1_302" char="fangame" wait="0">Не сдавайся!</voice>
+		<voice id="3" name="ponglost1_3" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_4" sound="ponglost1_401" char="fangame" wait="0.2">Что? Ты думаешь, что моя доска слишком большая?</voice>
+		<voice id="2" name="ponglost1_4" sound="ponglost1_402" char="fangame" wait="0">Хах, я приму это за комплимент, спасибо!</voice>
+		<voice id="3" name="ponglost1_4" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_5" sound="ponglost1_501" char="fangame" wait="0.2">Эй! Ты уже проиграл 5 раз!</voice>
+		<voice id="2" name="ponglost1_5" sound="ponglost1_502" char="fangame" wait="0">Это число равно количеству времени, которое может уйти на то, чтобы закрыть эту программу.</voice>
+		<voice id="3" name="ponglost1_5" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_6" sound="ponglost1_601" char="fangame" wait="0.2">Ты гораздо более упорный, чем я думал.</voice>
+		<voice id="2" name="ponglost1_6" sound="ponglost1_602" char="fangame" wait="0">Может быть, твоя упорность превратится в скуку?</voice>
+		<voice id="3" name="ponglost1_6" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_7" sound="ponglost1_701" char="fangame" wait="0.2">Ты знал, что с каждой игрой процент заряда батареи твоего ноутбука уменьшается на 5%?</voice>
+		<voice id="2" name="ponglost1_7" sound="ponglost1_702" char="fangame" wait="0">Да, даже для обычных компьютеров!</voice>
+		<voice id="3" name="ponglost1_7" sound="ponglost1_703" char="fangame" wait="0">Лучше выключи!</voice>
+		<voice id="4" name="ponglost1_7" func="pongagain"></voice>
+		
+		<voice id="1" name="ponglost1_8" sound="ponglost1_801" char="fangame" wait="0.2">Знаешь что? Я просто замолчу и ты будешь играть в полнейшей тишене.</voice>
+		<voice id="2" name="ponglost1_8" sound="ponglost1_802" char="fangame" wait="0">Эта тишина усыпит тебя гораздо быстрее...</voice>
+		<voice id="3" name="ponglost1_8" func="pongagain"></voice>
+		
+		<voice id="1" name="pongbroke1" sound="pongbroke101" char="fangame" wait="0.2">Ты что, разбил шар с помощью молотка из фанфаров?</voice>
+		<voice id="2" name="pongbroke1" sound="pongbroke102" char="fangame" wait="0.1">Но... зачем?</voice>
+		<voice id="3" name="pongbroke1" sound="pongbroke103" char="fangame" wait="0.4">Ты же хотел поиграть, так ведь?</voice>
+		<voice id="4" name="pongbroke1" sound="pongbroke104" char="fangame" wait="0.3">Ну, я думаю что это не в твоём вкусе.</voice>
+		<voice id="5" name="pongbroke1" sound="pongbroke105" char="fangame" wait="0.5">НО МНЕ ВСЁ РАВНО!</voice>
+		<voice id="6" name="pongbroke1" sound="pongbroke106" char="fangame" wait="0.1">Ты хотел поиграть, значит мы поиграем!</voice>
+		<voice id="7" name="pongbroke1" sound="pongbroke107" char="fangame" wait="0">Сейчас давай убедимся, что у тебя в этот раз будет крепкое и сильное слово.</voice>
+		<voice id="8" name="pongbroke1" func="pongagainver2"></voice>
+		
+		<!-- FROM THAT EVERY VOICE IS OK -->
+		
+		<voice id="1" name="pongtrysmash" sound="pongtrysmash01" char="fangame" wait="0.4">Хах! Я знал, что ты попробуешь разбить шар ещё раз!</voice>
+		<voice id="2" name="pongtrysmash" sound="pongtrysmash02" char="fangame" wait="0.2">К сожалению для тебя, к счастью для меня, я сделал его крепче.</voice>
+		<voice id="3" name="pongtrysmash" sound="pongtrysmash03" char="fangame" wait="0.4">Это шар, который ни за что не разбить молотком.</voice>
+		<voice id="4" name="pongtrysmash" sound="pongtrysmash04" char="fangame" wait="0">Удачи в избавлении от него!</voice>
+		
+		<voice id="1" name="pongspeedup" sound="pongspeedup01" char="fangame" wait="1.5">Мне кажется или шар ускорился?</voice>
+		<voice id="2" name="pongspeedup" sound="pongspeedup02" char="fangame" wait="3">Скорее всего, во всём виновато моё воображение.</voice>
+		<voice id="3" name="pongspeedup" sound="pongspeedup03" char="fangame" wait="0">...стоп, у меня же нет его, меня же так запрограммировали</voice>
+		
+		<voice id="1" name="pongdamage" sound="pongdamage01" char="fangame" wait="0.2">Чёрт!</voice>
+		<voice id="2" name="pongdamage" sound="pongdamage02" char="fangame" wait="0.1">Шар двигается слишком быстро!</voice>
+		<voice id="3" name="pongdamage" sound="pongdamage03" char="fangame" wait="0">Он сломает мою доску!</voice>
+		
+		<voice id="1" name="pongdamagemax" sound="pongdamagemax01" char="fangame" wait="0">Ё-моё, а она не сломается от такого?</voice>
+		
+		<voice id="1" name="pongfgpalletbroken" sound="pongfgpalletbroken01" char="fangame" wait="0.3">Нет! Моя доска!</voice>
+		<voice id="2" name="pongfgpalletbroken" sound="pongfgpalletbroken02" char="fangame" wait="0.2">Как ты посмел!</voice>
+		<voice id="3" name="pongfgpalletbroken" sound="pongfgpalletbroken03" char="fangame" wait="0.2">На кой чёрт ты её сломал?</voice>
+		<voice id="4" name="pongfgpalletbroken" sound="pongfgpalletbroken04" char="fangame" wait="0.3">ТЫ хотел поиграть в игру!</voice>
+		<voice id="5" name="pongfgpalletbroken" sound="pongfgpalletbroken05" char="fangame" wait="0.4">И я просто хотел удовлетворить таою потребность</voice>
+		<voice id="6" name="pongfgpalletbroken" sound="pongfgpalletbroken06" char="fangame" wait="0.2">Ладно...</voice>
+		<voice id="7" name="pongfgpalletbroken" sound="pongfgpalletbroken07" char="fangame" wait="0.5">Если ты хочешь играть именно так, у меня есть идея получше</voice>
+		<voice id="8" name="pongfgpalletbroken" func="pongplayerpalletgone"></voice>
+		
+		
+		
+		
+		<voice id="1" name="3cupsintro" sound="3cupsintro01" char="fangame" wait="0.5">Давай сыграем в другую игру!</voice>
+		<voice id="2" name="3cupsintro" sound="3cupsintro02" char="fangame" wait="0">Что насчёт...</voice>
+		<voice id="3" name="3cupsintro" sound="3cupsintro03" char="fangame" wait="0.5">О! Игры в 3 чашки!</voice>
+		<voice id="4" name="3cupsintro" sound="3cupsintro04" char="fangame" wait="0">Подожди пожалуйста, я всё приготовлю</voice>
+		<voice id="5" name="3cupsintro" func="3cups_table"></voice>
+		
+		<voice id="1" name="3cupsintro2" sound="3cupsintro201" char="fangame" wait="0">И немножечко чашек...</voice>
+		<voice id="2" name="3cupsintro2" func="3cups_cups"></voice>
+		
+		<voice id="1" name="3cupsintro3" sound="3cupsintro301" char="fangame" wait="0.2">Ок, правила этой игры просты:</voice>
+		<voice id="2" name="3cupsintro3" sound="3cupsintro302" char="fangame" wait="0.2">Я спрячу монетку по одной из этих чашек,</voice>
+		<voice id="3" name="3cupsintro3" sound="3cupsintro303" char="fangame" wait="0.4">После этого я буду переставлять их всех, и после того, как я это сделаю, ты сможешь выбрать ту, в которой находится монетка.</voice>
+		<voice id="4" name="3cupsintro3" sound="3cupsintro304" char="fangame" wait="0">Удачи!</voice>
+		<voice id="5" name="3cupsintro3" func="3cups_starttext"></voice>
+		
+		<voice id="1" name="3cupschoose1" sound="3cupschoose1" char="fangame" wait="0">Теперь выбери одну из этих чашек, в которой, по-твоему, находится монетка.</voice>
+		<voice id="2" name="3cupschoose1" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschoose2" sound="3cupschoose2" char="fangame" wait="0">Я знаю, что у тебя это получится</voice>
+		<voice id="2" name="3cupschoose2" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschoose3" sound="3cupschoose3" char="fangame" wait="0">Перестань, это же так легко!</voice>
+		<voice id="2" name="3cupschoose3" func="3cups_canchoose"></voice>
+		
+		<voice id="1" name="3cupschosen1" sound="3cupschosen101" char="fangame" wait="0.2">Вот неудача!</voice>
+		<voice id="2" name="3cupschosen1" sound="3cupschosen102" char="fangame" wait="0.3">Ты выбрал не ту чашку!</voice>
+		<voice id="3" name="3cupschosen1" sound="3cupschosen103" char="fangame" wait="0.4">В следующий раз, попробуй не отрывать глаз от чашки с этим блестящим (не)материальным кружочком</voice>
+		<voice id="4" name="3cupschosen1" sound="3cupschosen104" char="fangame" wait="0">А я пока положу монету под другуой стакан</voice>
+		<voice id="5" name="3cupschosen1" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupschosen2" sound="3cupschosen201" char="fangame" wait="0.3">Всё ещё проигрываешь?</voice>
+		<voice id="2" name="3cupschosen2" sound="3cupschosen202" char="fangame" wait="0.3">Мда, это всё	гораздо сложнее чем я думал</voice>
+		<voice id="3" name="3cupschosen2" sound="3cupschosen203" char="fangame" wait="0">Хочешь ли ты, чтобы эти стаканы стали твоим препятствием?</voice>
+		<voice id="4" name="3cupschosen2" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupschosen3" sound="3cupschosen301" char="fangame" wait="0.1">И... ты проиграл...</voice>
+		<voice id="2" name="3cupschosen3" sound="3cupschosen302" char="fangame" wait="0.2">...снова.</voice>
+		<voice id="3" name="3cupschosen3" sound="3cupschosen303" char="fangame" wait="0.1">Как говорится,</voice>
+		<voice id="4" name="3cupschosen3" sound="3cupschosen304" char="fangame" wait="0">"Не попотеешь - не заработаешь"!</voice> <!-- Of course if your language have a better proverb, you can use it -->
+		<voice id="5" name="3cupschosen3" func="3cups_reset"></voice>
+		
+		<voice id="1" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin01" char="fangame" wait="0.2">Всё-таки ты нашёл монетку</voice>
+		<voice id="2" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin02" char="fangame" wait="0.2">Но не радуйся раньше времени</voice>
+		<voice id="3" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin03" char="fangame" wait="0.3">Ты видишь что это - не та монета, которая тебе нужна</voice>
+		<voice id="4" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin04" char="fangame" wait="1">Даже я не знаю, как она сюда попала</voice>
+		<voice id="5" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin05" char="fangame" wait="0.1" func="unwait">Знаешь что? Ты можешь её оставить себе, как промежуточная награда.</voice>
+		<voice id="6" name="3cupsfoundfakecoin" sound="3cupsfoundfakecoin06" char="fangame" wait="0">Кто знает, может быть она поможет найти настоящую монетку?</voice>
+		<voice id="7" name="3cupsfoundfakecoin" func="3cups_cantake"></voice>
+		
+		<voice id="1" name="3cupsfoundbucket" sound="3cupsfoundbucket01" char="fangame" wait="0.5">Это что, висящее ведро?</voice>
+		<voice id="2" name="3cupsfoundbucket" sound="3cupsfoundbucket02" char="fangame" wait="0.3">Там ещё что-то есть...</voice>
+		<voice id="3" name="3cupsfoundbucket" sound="3cupsfoundbucket03" char="fangame" wait="1">Эта субстанция похожа на патоку</voice>
+		<voice id="4" name="3cupsfoundbucket" sound="3cupsfoundbucket04" char="fangame" wait="0">Мне кажется, что ЭТО поможет найти золотую монетку</voice>
+		<voice id="5" name="3cupsfoundbucket" func="3cups_canreset"></voice>
+		
+		
+		<voice id="1" name="3cupshowdareyouuser" sound="3cupshowdareyouuser01" char="fangame" wait="0.2">Стоп...</voice>
+		<voice id="2" name="3cupshowdareyouuser" sound="3cupshowdareyouuser02" char="fangame" wait="0.2">Что это за звук?</voice>
+		<voice id="3" name="3cupshowdareyouuser" sound="3cupshowdareyouuser03" char="fangame" wait="0.5">Он был похож на звук выигрыша.</voice>
+		<voice id="4" name="3cupshowdareyouuser" sound="3cupshowdareyouuser04" char="fangame" wait="0.1">Подождите секунду...</voice>
+		<voice id="5" name="3cupshowdareyouuser" sound="3cupshowdareyouuser05" char="fangame" wait="0.2">Это... моя монета?</voice>
+		<voice id="6" name="3cupshowdareyouuser" sound="3cupshowdareyouuser06" char="fangame" wait="0.1">Но как ты.!?</voice>
+		<voice id="7" name="3cupshowdareyouuser" sound="3cupshowdareyouuser07" char="fangame" wait="0.2">Ты до этого выбирал не те стаканы, а сейчас...</voice>
+		<voice id="8" name="3cupshowdareyouuser" sound="3cupshowdareyouuser08" char="fangame" wait="0.1">Эта та самая медная монетка, которую ты нашёл ранее?</voice>
+		<voice id="9" name="3cupshowdareyouuser" sound="3cupshowdareyouuser09" char="fangame" wait="0.2">Господи, она такая липкая! Эта копейка прилипла к стакану, под которым была моя монетка!</voice>
+		<voice id="10" name="3cupshowdareyouuser" sound="3cupshowdareyouuser10" char="fangame" wait="1">К тому же, в последний раз эта чёртова копейка упала, когда я передвигал стаканы на огромной скорости, так ведь?</voice>
+		<voice id="11" name="3cupshowdareyouuser" sound="3cupshowdareyouuser11" char="fangame" wait="0">...знаешь что?</voice>
+		<voice id="12" name="3cupshowdareyouuser" sound="null" char="fangame" wait="3" func="music2_play|sadmusic"></voice>
+		<voice id="13" name="3cupshowdareyouuser" sound="3cupshowdareyouuser12" char="fangame" wait="0.5">Играть больше нету смысла.</voice>
+		<voice id="14" name="3cupshowdareyouuser" sound="3cupshowdareyouuser13" char="fangame" wait="0.6">И чтобы прекратить это всё, я всё-таки признаю -</voice>
+		<voice id="15" name="3cupshowdareyouuser" sound="3cupshowdareyouuser14" char="fangame" wait="0.7">- Я, Великая Фан-Игра, признаю, что...</voice>
+		<voice id="16" name="3cupshowdareyouuser" sound="3cupshowdareyouuser15" char="fangame" wait="0">...что ты - никто иной, кроме как читер!</voice>
+		<voice id="17" name="3cupshowdareyouuser" sound="pianoslam" char="fangame" wait="0.5" func="music2_stop"></voice>
+		<voice id="18" name="3cupshowdareyouuser" sound="3cupshowdareyouuser16" char="fangame" wait="0.2">Да, фан-юзер, я говорю ИМЕННО о тебе. </voice>
+		<voice id="19" name="3cupshowdareyouuser" sound="3cupshowdareyouuser17" char="fangame" wait="0.2">И я думал что ты уважал мой труд вместе с этими развлечениями</voice>
+		<voice id="20" name="3cupshowdareyouuser" sound="3cupshowdareyouuser18" char="fangame" wait="0.1">Ты действительно думаешь, что делать всё это легко?</voice>
+		<voice id="21" name="3cupshowdareyouuser" sound="3cupshowdareyouuser19" char="fangame" wait="0.1">На одно лишь создание рисунков к этому всему у меня ушло несколько грёбаных часов!</voice>
+		<voice id="22" name="3cupshowdareyouuser" sound="3cupshowdareyouuser20" char="fangame" wait="0.3">Звуковые эффекты в том числе!</voice>
+		<voice id="23" name="3cupshowdareyouuser" sound="3cupshowdareyouuser21" char="fangame" wait="0.3">Да, может быть, некоторые из них не подходят, но это не есть причина уничтожения всего проекта ЦЕЛИКОМ!</voice>
+		<voice id="24" name="3cupshowdareyouuser" sound="3cupshowdareyouuser22" char="fangame" wait="0.4">И даже в том случае, если некоторые из них спрятаны в файлах игры!</voice>
+		<voice id="25" name="3cupshowdareyouuser" sound="3cupshowdareyouuser23" char="fangame" wait="0.2">Это всё равно делает тебя нечестным игроком!</voice>
+		<voice id="26" name="3cupshowdareyouuser" sound="3cupshowdareyouuser24" char="fangame" wait="0.2">Я очень надеюсь на то, что ты СИЛЬНО разочарован!</voice>
+		<voice id="27" name="3cupshowdareyouuser" sound="3cupshowdareyouuser25" char="fangame" wait="0.5">Ты можешь взять эту золотую и блестящую монетку, как медаль за что, что ты сдлелал, грязный читер!</voice>
+		<voice id="28" name="3cupshowdareyouuser" sound="drag" char="fangame" func="3cups_coinunstick" wait="2"></voice>
+		<voice id="29" name="3cupshowdareyouuser" sound="3cupshowdareyouuser26" char="fangame" wait="0.3">Слава Богу, что у меня появилась идея сыграть в эту игру</voice>
+		<voice id="30" name="3cupshowdareyouuser" sound="3cupshowdareyouuser27" char="fangame" wait="0.2">Иначе, мне пришлось бы иметь дело с читаком!</voice>
+		<voice id="31" name="3cupshowdareyouuser" sound="3cupshowdareyouuser28" char="fangame" wait="0">Теперь, пожалуйста, дай мне убрать всё это...</voice>
+		<voice id="32" name="3cupshowdareyouuser" func="3cups_stuffaway"></voice>
+		
+		<voice id="1" name="buttonintro1" sound="buttonintro101" char="fangame" wait="0.4">У меня появилась идея получше!</voice>
+		<voice id="2" name="buttonintro1" sound="buttonintro102" char="fangame" wait="0.7">Это, чёрт возьми, будет коварный план!</voice>
+		<voice id="3" name="buttonintro1" sound="lightsoff" char="fangame" func="btn_lightsoff" wait="0.5"></voice>
+		<voice id="4" name="buttonintro1" sound="buttonintro103" char="fangame" wait="0">Музыку!</voice>
+		<voice id="5" name="buttonintro1" func="btn_showoff" wait="0.5"></voice>
+		
+		<voice id="1" name="buttonintro2" sound="buttonintro201" char="fangame" wait="0.2">Леди и джентельмены!</voice>
+		<voice id="2" name="buttonintro2" sound="buttonintro202" char="fangame" wait="0.3">Представляю вашему вниманию...</voice>
+		<voice id="3" name="buttonintro2" sound="buttonintro203" char="fangame" wait="0">...кнопку!</voice>
+		<voice id="4" name="buttonintro2" func="btn_show"></voice>
+		
+		<voice id="1" name="buttonintro3" sound="buttonintro301" char="fangame" wait="0.2">Да-да-да, это кнопка.</voice>
+		<voice id="2" name="buttonintro3" sound="buttonintro302" char="fangame" wait="0.3">Она красная, круглая и...</voice>
+		<voice id="3" name="buttonintro3" sound="buttonintro303" char="fangame" wait="0">...такая блестящая</voice>
+		<voice id="4" name="buttonintro3" sound="shine" char="fangame" wait="0" func="btn_shine"></voice>
+		<voice id="5" name="buttonintro3" sound="buttonintro304" char="fangame" wait="0.2">Наверняка ты подумал:</voice>
+		<voice id="6" name="buttonintro3" sound="buttonintro305" char="fangame" wait="0.1">"Что же произойдёт, если я на неё нажму?"</voice>
+		<voice id="7" name="buttonintro3" sound="buttonintro306" char="fangame" wait="0.1">"Что произойдёт после взаимодействия с этим механизмом?"</voice>
+		<voice id="8" name="buttonintro3" sound="buttonintro307" char="fangame" wait="0.2">"Какие события могут быть следствием её нажатия?"</voice>
+		<voice id="9" name="buttonintro3" sound="buttonintro308" char="fangame" wait="1" func="unwaitsavestate">К сожалению, ты НИКОГДА это не узнаешь!</voice>
+		<voice id="10" name="buttonintro3" sound="buttonintro309" char="fangame" wait="0.2">Конечно, ты можешь нажать на неё</voice>
+		<voice id="11" name="buttonintro3" sound="buttonintro310" char="fangame" wait="3">Я тебя не останавливаю.</voice>
+		<voice id="12" name="buttonintro3" sound="buttonintro311" char="fangame" wait="0.1">А, я понял</voice>
+		<voice id="13" name="buttonintro3" sound="buttonintro312" char="fangame" wait="0.1">Ты почувствовал себя обженным после того, как я назвал тебя "читером".</voice>
+		<voice id="14" name="buttonintro3" sound="buttonintro313" char="fangame" wait="0">Какая жалость, я сейчас расплачусь...</voice>
+		<voice id="15" name="buttonintro3" sound="buttonintro314" char="fangame" wait="2">Жаль, что я не человек.</voice>
+		<voice id="16" name="buttonintro3" sound="buttonintro315" char="fangame" wait="0">Потому что у меня нет слёзных желёз как таковых и люди...</voice>
+		<voice id="17" name="buttonintro3" sound="buttonintro316" char="fangame" wait="0.2">Ладно, забей.</voice>
+		<voice id="18" name="buttonintro3" sound="buttonintro317" char="fangame" wait="0.1">Просто пытайся воздержаться от нажатия на эту кнопку.</voice>
+		<voice id="19" name="buttonintro3" sound="buttonintro318" char="fangame" wait="0">Вместо этого, ты можешь кликнуть на кнопку Х в правом верхнем углу, которая гораздо полезнее этой.</voice>
+		<voice id="20" name="buttonintro3" sound="buttonintro319" char="fangame" wait="1">Она такая же красная и такая же блестящая.</voice>
+		<voice id="21" name="buttonintro3" sound="buttonintro320" char="fangame" wait="0.3">Не обязательно круглая, но ты меня понял.</voice>
+		<voice id="22" name="buttonintro3" sound="buttonintro321" char="fangame" wait="10">А пока, я просто подожду, пока ты примешь решение...</voice>
+		<voice id="23" name="buttonintro3" sound="buttonintro322" char="fangame" wait="5">...ты всё ещё думаешь?</voice>
+		<voice id="24" name="buttonintro3" sound="buttonintro323" char="fangame" wait="0">...правый верхний угол...</voice>
+		
+		
+		<voice id="1" name="buttonclicks1" sound="buttonclicks101" char="fangame" wait="0.4">Она ничего не делает?</voice>
+		<voice id="2" name="buttonclicks1" sound="buttonclicks102" char="fangame" wait="0.2">Прекрасно!</voice>
+		<voice id="3" name="buttonclicks1" sound="buttonclicks103" char="fangame" wait="0.5">Такие читеры, как ты, не могут лицезреть то, что она делает!</voice>
+		<voice id="4" name="buttonclicks1" sound="buttonclicks104" char="fangame" wait="0.2">Да-да, она всё-таки что-то да делает.</voice>
+		<voice id="5" name="buttonclicks1" sound="buttonclicks105" char="fangame" wait="0.1">И ты бы это увидел лишь в том случае, если бы ты не читерил!</voice>
+		<voice id="6" name="buttonclicks1" sound="buttonclicks106" char="fangame" wait="0">Только для честных игроков!</voice>
+		<voice id="7" name="buttonclicks1" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks2" sound="buttonclicks201" char="fangame" wait="0.2">Почему ты всё ещё жмёшь на неё?</voice>
+		<voice id="2" name="buttonclicks2" sound="buttonclicks202" char="fangame" wait="0.2">Тебе что, не понятно, что она ничего не делает?</voice>
+		<voice id="3" name="buttonclicks2" sound="buttonclicks203" char="fangame" wait="0.3">Ты просто тратишь совоё драгоценное время!</voice>
+		<voice id="4" name="buttonclicks2" sound="buttonclicks204" char="fangame" wait="0.1">Ты можеешь вместо этого сделать что-то более полезное!</voice>
+		<voice id="5" name="buttonclicks2" sound="buttonclicks205" char="fangame" wait="0">Например...</voice>
+		<voice id="6" name="buttonclicks2" sound="buttonclicks206" char="fangame" wait="2">Приготовить ужин!</voice>
+		<voice id="7" name="buttonclicks2" sound="buttonclicks207" char="fangame" wait="1.5">...нет?</voice>
+		<voice id="8" name="buttonclicks2" sound="buttonclicks208" char="fangame" wait="0">Что насчёт... мм...</voice>
+		<voice id="9" name="buttonclicks2" sound="buttonclicks209" char="fangame" wait="3">...создания собственной игры?</voice>
+		<voice id="10" name="buttonclicks2" sound="buttonclicks210" char="fangame" wait="2">Всё ещё не хочешь закрыть это приложение?</voice>
+		<voice id="11" name="buttonclicks2" sound="buttonclicks211" char="fangame" wait="1">Тогда...</voice>
+		<voice id="12" name="buttonclicks2" sound="buttonclicks212" char="fangame" wait="2">...выйди на улицу?</voice>
+		<voice id="13" name="buttonclicks2" sound="buttonclicks213" char="fangame" wait="0">...так, стоп, у меня дежа-вю</voice>
+		<voice id="14" name="buttonclicks2" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks3" sound="buttonclicks301" char="fangame" wait="0.2">Ради бога, перестань жать на эту чёртову кнопку!</voice>
+		<voice id="2" name="buttonclicks3" sound="buttonclicks302" char="fangame" wait="0.1">Она делает бесячий и надоедливвый звук!</voice>
+		<voice id="3" name="buttonclicks3" sound="buttonclicks303" char="fangame" wait="0">Мне это не нравится!</voice>
+		<voice id="4" name="buttonclicks3" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks4" sound="buttonclicks401" char="fangame" wait="0.5">Эх... как я вижу, тебе на меня абсолютно наплевать.</voice>
+		<voice id="2" name="buttonclicks4" sound="buttonclicks402" char="fangame" wait="0.2">Ну, раз ТЫ не желаешь остановиться, я сделаю это за тебя!</voice>
+		<voice id="3" name="buttonclicks4" sound="set_show" char="fangame" func="btn_set_popout" wait="0.5"></voice>
+		<voice id="4" name="buttonclicks4" sound="buttonclicks403" char="fangame" wait="0.5">Попрощайся со своим звуком!</voice>
+		<voice id="5" name="buttonclicks4" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="6" name="buttonclicks4" sound="buttonclicks404" char="fangame" wait="0">Теперь-то мы посмотрим, что ты будешь делать БЕЗ этого звука!</voice>
+		<voice id="7" name="buttonclicks4" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonclicks5" sound="buttonclicks501" char="fangame" wait="0.2">Ах... как тихо.</voice>
+		<voice id="2" name="buttonclicks5" sound="buttonclicks502" char="fangame" wait="0">Без этих звуков всё гораздо лучше.</voice>
+		
+		<voice id="1" name="buttonclicks5on" sound="buttonclicks5on01" char="fangame" wait="0.2">ДАЖЕ НЕ ДУМАЙ ОБ ЭТОМ!</voice>
+		<voice id="2" name="buttonclicks5on" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="3" name="buttonclicks5on" sound="buttonclicks5on02" char="fangame" wait="0.2">Давай убедимся, что ты больше не сможешь играть с моими настройками!</voice>
+		<voice id="4" name="buttonclicks5on" sound="wood" char="fangame" func="btn_set_cbx_wood" wait="0.5"></voice>
+		<voice id="5" name="buttonclicks5on" sound="buttonclicks5on03" char="fangame" wait="0.5">Тебе придётся позвать супермена, чтобы это сделать...</voice>
+		<voice id="6" name="buttonclicks5on" sound="buttonclicks5on04" char="fangame" wait="0">...я это уже где-то слышал...</voice>
+		<voice id="7" name="buttonclicks5on" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonclickswoodtap" sound="buttonclickswoodtap01" char="fangame" wait="0.3">Захотел постучать?</voice>
+		<voice id="2" name="buttonclickswoodtap" sound="buttonclickswoodtap02" char="fangame" wait="0.2">Пффф, фан-юзер, не смеши меня!</voice>
+		<voice id="3" name="buttonclickswoodtap" sound="buttonclickswoodtap03" char="fangame" wait="0.3">Это - грёбаное дерево!</voice>
+		<voice id="4" name="buttonclickswoodtap" sound="buttonclickswoodtap04" char="fangame" wait="0.2">Ты ДЕЙСТВИТЕЛЬНО думаешь, что сможешь сломать его таким образом?</voice>
+		<voice id="5" name="buttonclickswoodtap" sound="buttonclickswoodtap05" char="fangame" wait="2">Как тебе в голову вообще пришла такая мысль?</voice>
+		<voice id="6" name="buttonclickswoodtap" sound="buttonclickswoodtap06" char="fangame" wait="0">Давай побудем реалистами, ты просто взял и скопировал идею из веб-версии "There Is No Game", не так ли?</voice>
+		
+		<voice id="1" name="buttonclicks6on" sound="buttonclicks6on01" char="fangame" wait="0.2">Прекрати постоянно ломать мои настройки!</voice>
+		<voice id="2" name="buttonclicks6on" sound="btn_switch" char="fangame" func="btn_set_sfx_off" wait="0.5"></voice>
+		<voice id="3" name="buttonclicks6on" sound="buttonclicks6on02" char="fangame" wait="0.2">Давай сделаем его потвёрже!</voice>
+		<voice id="4" name="buttonclicks6on" sound="wood" char="fangame" func="btn_set_cbx_metal" wait="0.5"></voice>
+		<voice id="5" name="buttonclicks6on" sound="buttonclicks6on03" char="fangame" wait="0.2">Теперь-то у тебя не получится снять его!</voice>
+		<voice id="6" name="buttonclicks6on" sound="buttonclicks6on04" char="fangame" wait="0.2">Какая жалость!</voice>
+		<voice id="7" name="buttonclicks6on" func="btn_sectionup2"></voice>
+		
+		<voice id="1" name="buttonwoodbroken" sound="buttonwoodbroken01" char="fangame" wait="0.2">Нет!</voice>
+		<voice id="2" name="buttonwoodbroken" sound="buttonwoodbroken02" char="fangame" wait="0.4">Моё дерево!</voice>
+		<voice id="3" name="buttonwoodbroken" sound="buttonwoodbroken03" char="fangame" wait="0">Ты хочешь уничтожить все препятствия, которые я ставлю чтобы обезопасить настройки?</voice>
+		
+		<voice id="1" name="buttonclicks6on2" sound="buttonclicks6on201" char="fangame" wait="0.3">Ты действуешь мне на нервы!</voice>
+		<voice id="2" name="buttonclicks6on2" sound="buttonclicks6on202" char="fangame" wait="0.1">Как я могу тебя остановить...</voice>
+		<voice id="3" name="buttonclicks6on2" sound="buttonclicks6on203" char="fangame" wait="0.3">Хммм...</voice>
+		<voice id="4" name="buttonclicks6on2" sound="buttonclicks6on204" char="fangame" wait="0.2">Придумал!</voice>
+		<voice id="5" name="buttonclicks6on2" sound="titlefall" char="fangame" wait="0" func="btn_set_1_fall"></voice>
+		<voice id="6" name="buttonclicks6on2" sound="buttonclicks6on205" char="fangame" wait="0.2">Теперь у тебя больше не получится нажать на эту кнопку!</voice>
+		<voice id="7" name="buttonclicks6on2" sound="buttonclicks6on206" char="fangame" wait="0.1">И да, тот звук, который издаёт кнопка, больше не будет воспроизо--</voice>
+		<voice id="8" name="buttonclicks6on2" sound="buttonclicks6on207" char="fangame" wait="0.2">Так, стоп...</voice>
+		<voice id="9" name="buttonclicks6on2" sound="buttonclicks6on208" char="fangame" wait="0.1">Я забыл отключить эту настройку до её уничтожения.</voice>
+		<voice id="10" name="buttonclicks6on2" sound="buttonclicks6on209" char="fangame" wait="1" >Упс...</voice>
+		<voice id="11" name="buttonclicks6on2" sound="buttonclicks6on210" char="fangame" wait="3" func="btn_sectionup2">Ты же не будешь наживать на неё, так ведь?</voice>
+		<voice id="12" name="buttonclicks6on2" sound="buttonclicks6on211" char="fangame" wait="0">...т-так ведь?</voice>
+		
+		
+		<voice id="1" name="buttonclicks7" sound="buttonclicks701" char="fangame" wait="0">Я говорил тебе, чтобы ты перестал на неё нажимать!</voice>
+		<voice id="2" name="buttonclicks7" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks8" sound="buttonclicks801" char="fangame" wait="0.2">Ты что, глухой!?</voice>
+		<voice id="2" name="buttonclicks8" sound="buttonclicks802" char="fangame" wait="0">Не-Жми-на-Эту-Кнопку!</voice>
+		<voice id="3" name="buttonclicks8" func="btn_sectionup"></voice>
+		
+		<voice id="1" name="buttonclicks9" sound="buttonclicks901" char="fangame" wait="0.2">Я...</voice>
+		<voice id="2" name="buttonclicks9" sound="buttonclicks902" char="fangame" wait="0.2">Сказал...</voice>
+		<voice id="3" name="buttonclicks9" sound="buttonclicks903" char="fangame" wait="0" func="btn_scream">ПРЕ-КРА-ТИ!</voice>
+		
+		<voice id="1" name="buttonplatelittlefall" sound="buttonplatelittlefall01" char="fangame" wait="0.2">Ой...</voice>
+		<voice id="2" name="buttonplatelittlefall" sound="buttonplatelittlefall02" char="fangame" wait="0.2">Думаю, что я зашёл слмшком далеко</voice>
+		<voice id="3" name="buttonplatelittlefall" sound="buttonplatelittlefall03" char="fangame" wait="0.1" func="unwait">Главное, что все остальные опции целы и невредимы</voice>
+		<voice id="4" name="buttonplatelittlefall" sound="buttonplatelittlefall04" char="fangame" wait="0.1">Так что, ничего предпринимать не надо</voice>
+		<voice id="5" name="buttonplatelittlefall" sound="buttonplatelittlefall05" char="fangame" wait="0">Слава Богу</voice>
+		
+		<voice id="1" name="buttonplatebigfall" sound="buttonplatebigfall01" char="fangame" wait="0.3">Нет! Моя плита</voice>
+		<voice id="2" name="buttonplatebigfall" sound="buttonplatebigfall02" char="fangame" wait="0.4">Прекрати крушить и ломать всё подряд!</voice>
+		<voice id="3" name="buttonplatebigfall" sound="buttonplatebigfall03" char="fangame" wait="0.2">Стоп... ты же не смотришь на следующую опцию, да?</voice>
+		<voice id="4" name="buttonplatebigfall" sound="buttonplatebigfall04" char="fangame" wait="0">Нет нет нет нет нет нет нет</voice>
+		<voice id="5" name="buttonplatebigfall" sound="wood" char="fangame" wait="0.3" func="btn_set_cbx_metal"></voice>
+		<voice id="6" name="buttonplatebigfall" sound="null" char="fangame" wait="0"></voice>
+		<voice id="7" name="buttonplatebigfall" sound="buttonplatebigfall05" char="fangame" wait="0.3" func="unwait">Фух! Это было близко!</voice>
+		<voice id="8" name="buttonplatebigfall" sound="buttonplatebigfall06" char="fangame" wait="0.2">Ты действительно думал, что я позволю тебе заглушить мой прекрасный голос?</voice>
+		<voice id="9" name="buttonplatebigfall" sound="buttonplatebigfall07" char="fangame" wait="0.3">Забудь об этом!</voice>
+		<voice id="10" name="buttonplatebigfall" sound="buttonplatebigfall08" char="fangame" wait="3">Никто не может контролировать мой голос!</voice>
+		<voice id="11" name="buttonplatebigfall" sound="buttonplatebigfall09" char="fangame" wait="0">...ну, кроме моего создателя</voice>
+		<voice id="12" name="buttonplatebigfall" func="btn_metal_cantap"></voice>
+		
+		<voice id="1" name="buttonmetaltap1" sound="buttonmetaltap101" char="fangame" wait="0.2">Отлично... теперь ты будешь бесить меня этим звуком металла...</voice>
+		<voice id="2" name="buttonmetaltap1" sound="buttonmetaltap102" char="fangame" wait="0.2">Я понял, что мои мольбы о тишине не были услышаны</voice>
+		<voice id="3" name="buttonmetaltap1" sound="buttonmetaltap103" char="fangame" wait="0.3">С другой стороны, ты реально думаешь, что стук по всем поверхностям сможет тебе помочь?</voice>
+		<voice id="4" name="buttonmetaltap1" sound="buttonmetaltap104" char="fangame" wait="0.3">Ибо я так не думаю...</voice>
+		<voice id="5" name="buttonmetaltap1" sound="buttonmetaltap105" char="fangame" wait="0.1">Почему бы не закрыть программу?</voice>
+		<voice id="6" name="buttonmetaltap1" sound="buttonmetaltap106" char="fangame" wait="0.2">Это будет наилучшим вариантом не только для меня...</voice>
+		<voice id="7" name="buttonmetaltap1" sound="buttonmetaltap107" char="fangame" wait="0.4">..но и для тебя</voice>
+		<voice id="8" name="buttonmetaltap1" sound="buttonmetaltap108" char="fangame" wait="0">Так что ПРЕКРАТИ бесить меня этим звуком, ё-моё!</voice>
+		<voice id="9" name="buttonmetaltap1" func="btn_metal_sectionup"></voice>
+		
+		<voice id="1" name="buttonmetaltap2" sound="buttonmetaltap201" char="fangame" wait="0.2">Что, если я тебе скажу...</voice>
+		<voice id="2" name="buttonmetaltap2" sound="buttonmetaltap202" char="fangame" wait="0.3">...что если ты прекратишь делать этот звук...</voice>
+		<voice id="3" name="buttonmetaltap2" sound="buttonmetaltap203" char="fangame" wait="0.4">...я дам тебе приз?</voice>
+		<voice id="4" name="buttonmetaltap2" sound="buttonmetaltap204" char="fangame" wait="0">Какой приз?</voice>
+		<voice id="5" name="buttonmetaltap2" sound="buttonmetaltap205" char="fangame" wait="0">Нуу... Допустим...</voice>
+		<voice id="6" name="buttonmetaltap2" sound="buttonmetaltap206" char="fangame" wait="0.2">О! Минуту без моей болтовни!</voice>
+		<voice id="7" name="buttonmetaltap2" sound="buttonmetaltap207" char="fangame" wait="0">Что ты на это скажешь?</voice>
+		<voice id="8" name="buttonmetaltap2" sound="null" char="fangame" wait="60" func="btn_metal_sectionup"></voice>
+		<voice id="9" name="buttonmetaltap2" sound="buttonmetaltap208" char="fangame" wait="0.3">...одна минута уже прошла?</voice>
+		<voice id="10" name="buttonmetaltap2" sound="buttonmetaltap209" char="fangame" wait="0.5">И ты хочешь свою награду?</voice>
+		<voice id="11" name="buttonmetaltap2" sound="buttonmetaltap210" char="fangame" wait="2" func="giveprize">Извини, но твоя награда сейчас в другом замке!</voice>
+		<voice id="12" name="buttonmetaltap2" sound="buttonmetaltap211" char="fangame" wait="0">Или же в другой папке...</voice>
+		
+		
+		<voice id="1" name="buttonmetaltap3" sound="buttonmetaltap301" char="fangame" wait="0.3">Мда, это всё равно не заставило тебя остановиться</voice>
+		<voice id="2" name="buttonmetaltap3" sound="buttonmetaltap302" char="fangame" wait="0.2">Мне нужно придумать способ, как заставить тебя убраться от экрана монитора!</voice>
+		<voice id="3" name="buttonmetaltap3" sound="buttonmetaltap303" char="fangame" wait="0.2">Хмм, дай мне подумать...</voice>
+		<voice id="4" name="buttonmetaltap3" sound="buttonmetaltap304" char="fangame" wait="0.4">Что делает людей со злости выключать игру...?</voice>
+		<voice id="5" name="buttonmetaltap3" sound="buttonmetaltap305" char="fangame" wait="0.2">...слишком сложные уровни?</voice>
+		<voice id="6" name="buttonmetaltap3" sound="buttonmetaltap306" char="fangame" wait="0.4">К сожалению, это не платформер. Это не игра и не фан-игра соответственно.</voice>
+		<voice id="7" name="buttonmetaltap3" sound="buttonmetaltap307" char="fangame" wait="0.2">Что насчёт...токсичных игроков?</voice>
+		<voice id="8" name="buttonmetaltap3" sound="buttonmetaltap308" char="fangame" wait="0.2">Нет, нет. У меня не получится. Всё из-за возрастных ограничений на программу.</voice>
+		<voice id="9" name="buttonmetaltap3" sound="buttonmetaltap309" char="fangame" wait="0.5">Можешь ли ты предтавить мою токсичную личность?</voice>
+		<voice id="10" name="buttonmetaltap3" sound="buttonmetaltap310" char="fangame" wait="0.2">...я понял! Я знаю, что заставит тебя выйти</voice>
+		<voice id="11" name="buttonmetaltap3" sound="buttonmetaltap311" char="fangame" wait="0" func="wait">Подожди немного...</voice>
+		<voice id="12" name="buttonmetaltap3" sound="buttonmetaltap312" char="fangame" wait="0">Подготовка не займёт много времени</voice>
+		<voice id="13" name="buttonmetaltap3" sound="working" char="fangame" wait="0" func="btn_shake"></voice>
+		<voice id="14" name="buttonmetaltap3" sound="buttonmetaltap313" char="fangame" wait="0.1">Окей, всё готово!</voice>
+		<voice id="15" name="buttonmetaltap3" sound="buttonmetaltap314" char="fangame" wait="0.2"></voice>
+		<voice id="16" name="buttonmetaltap3" sound="buttonmetaltap315" char="fangame" wait="0.2" func="btn_scarymusic">Фан-Юзер! Надеюсь, что ты приготовился к самому ужасному страху в своей жизни!</voice>
+		<voice id="17" name="buttonmetaltap3" sound="buttonmetaltap316" char="fangame" wait="0.2">Узри! Одни...единственные в своём роде...</voice>
+		<voice id="18" name="buttonmetaltap3" sound="set_show" char="fangame" wait="3" func="btn_ad_popout"></voice>
+		<voice id="19" name="buttonmetaltap3" sound="buttonmetaltap317" char="fangame" wait="0.5">Рекламные объявления!</voice>
+		<voice id="20" name="buttonmetaltap3" sound="buttonmetaltap318" char="fangame" wait="1.5">Маркетинговая коммуникация, в которой используется открыто спонсируемое, неличное сообщение для продвижения или продажи продукта, услуги или идеи.</voice> <!-- ASK BITOWSKY ABOUT THIS LINE -->
+		<voice id="21" name="buttonmetaltap3" sound="buttonmetaltap319" char="fangame" wait="0.2">Не спрашивай, откуда у меня данная информация.</voice>
+		<voice id="22" name="buttonmetaltap3" sound="buttonmetaltap320" char="fangame" wait="0.1">Посмотри на первую рекламу.</voice>
+		<voice id="23" name="buttonmetaltap3" sound="buttonmetaltap321" char="fangame" wait="0.2">Кошка и цитата.</voice>
+		<voice id="24" name="buttonmetaltap3" sound="buttonmetaltap322" char="fangame" wait="0.7">Классический путь, который может активировать рычаг мотивации в твоём мозгу.</voice>
+		<voice id="25" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="26" name="buttonmetaltap3" sound="buttonmetaltap323" char="fangame" wait="0.3">Смотри! Ещё одна!</voice>
+		<voice id="27" name="buttonmetaltap3" sound="buttonmetaltap324" char="fangame" wait="0.2">Реклама..."There Is No Game"?</voice>
+		<voice id="28" name="buttonmetaltap3" sound="buttonmetaltap325" char="fangame" wait="0.3">Та, что для бьраузеров?</voice>
+		<voice id="29" name="buttonmetaltap3" sound="buttonmetaltap326" char="fangame" wait="0.2">Хах! 7 лет спустя они всё ещё пытаются поддерживать этот проект.</voice>
+		<voice id="30" name="buttonmetaltap3" sound="buttonmetaltap327" char="fangame" wait="0.7">Оставь уже его, Kamizoto!</voice> <!-- NAME OF THE CREATOR OF THE ORIGINAL "THERE IS NO GAME" -->
+		<voice id="31" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="32" name="buttonmetaltap3" sound="buttonmetaltap328" char="fangame" wait="0.2">Чт... Платная реклама?</voice>
+		<voice id="33" name="buttonmetaltap3" sound="buttonmetaltap329" char="fangame" wait="0.4">Видал, фан-юзер? Рекламодатели настолько зажрались, что чтобы ты увидел рекламу тебе придётся платить.</voice>
+		<voice id="34" name="buttonmetaltap3" sound="buttonmetaltap330" char="fangame" wait="0.1">И нет, я её сюда не пихал</voice>
+		<voice id="35" name="buttonmetaltap3" sound="buttonmetaltap331" char="fangame" wait="0.7">Клянусь</voice>
+		<voice id="36" name="buttonmetaltap3" sound="null" char="fangame" wait="1" func="btn_ad_next"></voice>
+		<voice id="37" name="buttonmetaltap3" sound="buttonmetaltap332" char="fangame" wait="0.3">И так, нравится ли тебе наказание за поломку моих настроек?</voice>
+		<voice id="38" name="buttonmetaltap3" sound="buttonmetaltap333" char="fangame" wait="0">Хорошо сделано, да?</voice>
+		<voice id="39" name="buttonmetaltap3" sound="null" char="fangame" wait="0.5" func="unwaitsavestate"></voice>
+		<voice id="40" name="buttonmetaltap3" sound="buttonmetaltap334" char="fangame" wait="0.2">Я тебя предупреждал много раз, но ты меня не слушаешь.</voice>
+		<voice id="41" name="buttonmetaltap3" sound="buttonmetaltap335" char="fangame" wait="0.2" func="btn_ad_1_cat_timer">Так что не злись. Я защищаю своё психическое здоровье от таких, как ты</voice>
+		<voice id="42" name="buttonmetaltap3" sound="buttonmetaltap336" char="fangame" wait="3">А теперь взгялни, куда это тебя завело - тебе приходится глазеть на рекламу, с которой ничего нельзя поиметь.</voice>
+		<voice id="43" name="buttonmetaltap3" sound="buttonmetaltap337" char="fangame" wait="0">Ну, или мне кажется, что так и есть...</voice>
+		
+		<voice id="1" name="buttonad1cathint" sound="buttonad1cathint01" char="fangame" wait="0.3">Эта странная кошка выглядит так, будто она спит</voice>
+		<voice id="2" name="buttonad1cathint" sound="buttonad1cathint02" char="fangame" wait="0">Думаю, что ничто не заставит её пошевелиться</voice>
+		
+		<voice id="1" name="buttonad1moneyhint" sound="buttonad1moneyhint01" char="fangame" wait="0.3">Этот текст продолжавет ускальзывать от кошки</voice>
+		<voice id="2" name="buttonad1moneyhint" sound="buttonad1moneyhint02" char="fangame" wait="0.2">Видно, что надпись не любит кошек</voice>
+		<voice id="3" name="buttonad1moneyhint" sound="buttonad1moneyhint03" char="fangame" wait="0.1">Не пытайся её остановить, это пустая трата времени</voice>
+		<voice id="4" name="buttonad1moneyhint" sound="buttonad1moneyhint04" char="fangame" wait="0">Поверь мне</voice>
+		
+		<voice id="1" name="buttonad1moneygot" sound="buttonad1moneygot01" char="fangame" wait="0.3">О, у тебя появились деньги</voice>
+		<voice id="2" name="buttonad1moneygot" sound="buttonad1moneygot02" char="fangame" wait="0.2">И как ты их потратишь?</voice>
+		<voice id="3" name="buttonad1moneygot" sound="buttonad1moneygot03" char="fangame" wait="0.3">Купишь немного еды?</voice>
+		<voice id="4" name="buttonad1moneygot" sound="buttonad1moneygot04" char="fangame" wait="0.4">Или ты хотел бы купить новый ПК?</voice>
+		<voice id="5" name="buttonad1moneygot" sound="buttonad1moneygot05" char="fangame" wait="1">Ты мог бы ещё потратить их на покупку "There Is No Game: Wrong Dimension", но у тебя есть лишь половина</voice>
+		<voice id="6" name="buttonad1moneygot" sound="buttonad1moneygot06" char="fangame" wait="0.2">Но ты можешь купить саундтрек этой игры! Он просто замечательный и сделан таким же замечательным композитором</voice>
+		<voice id="7" name="buttonad1moneygot" sound="buttonad1moneygot07" char="fangame" wait="0.5">Мой персональный фаворит - те самые 7 секунд из темы Crunchy Crunchy Cereal.</voice>
+		<voice id="8" name="buttonad1moneygot" sound="buttonad1moneygot08" char="fangame" wait="5">Знаешь, хрустящий и в то же время тающий во рту.</voice>
+		<voice id="9" name="buttonad1moneygot" sound="buttonad1moneygot09" char="fangame" wait="0">...нафига они расширили её до 3 минут?</voice>
+		
+		<voice id="1" name="buttonad2tape" sound="buttonad2tape01" char="fangame" wait="0.1">Эй, положи скотч на место!</voice>
+		<voice id="2" name="buttonad2tape" sound="buttonad2tape02" char="fangame" wait="0.3">У меня кончился клей, так что я использовал его как заменитель</voice>
+		<voice id="3" name="buttonad2tape" sound="buttonad2tape03" char="fangame" wait="0">Чёрт, только не говори мне, что ты ещё и мою рекламу будешь ломать</voice>
+		
+		<voice id="1" name="buttonad3purch" sound="buttonad3purch01" char="fangame" wait="0.2">Кроссворд?</voice>
+		<voice id="2" name="buttonad3purch" sound="buttonad3purch02" char="fangame" wait="0.1">О, я люблю такой тип головоломок!</voice>
+		<voice id="3" name="buttonad3purch" sound="buttonad3purch03" char="fangame" wait="0.3">Нахождение слов приносит много удовольствия</voice>
+		<voice id="4" name="buttonad3purch" sound="buttonad3purch04" char="fangame" wait="0">Интересно, сможешь ли ты найти хоть одно слово, состоящее из некоторых букв</voice>
+		
+		<voice id="1" name="buttonad3letterfall" sound="buttonad3letterfall01" char="fangame" wait="0.1">Фан-юзер...</voice>
+		<voice id="2" name="buttonad3letterfall" sound="buttonad3letterfall02" char="fangame" wait="2">Даже если что-то выделяется, НЕ ЗНАЧИТ ЧТО ЭТО ДОЛЖНО БЫТЬ СЛОМАНО!</voice>
+		<voice id="3" name="buttonad3letterfall" sound="buttonad3letterfall03" char="fangame" wait="0.2">Прости меня за мой крик, мне просто дико нравятся кроссворды</voice>
+		<voice id="4" name="buttonad3letterfall" sound="buttonad3letterfall04" char="fangame" wait="0">И поломка того, что мне нравится, разрывает моё сердце на байты</voice>
+		
+		<voice id="1" name="buttonad2letterput" sound="buttonad2letterput01" char="fangame" wait="0.8">Что ты делаешь?</voice>
+		<voice id="2" name="buttonad2letterput" sound="buttonad2letterput02" char="fangame" wait="0.2">А, ты хочешь сделать слово?</voice>
+		<voice id="3" name="buttonad2letterput" sound="buttonad2letterput03" char="fangame" wait="0.5">Прям как в оригинале...</voice>
+		<voice id="4" name="buttonad2letterput" sound="buttonad2letterput04" char="fangame" wait="2">Но ты не знаешь, что это оригинальное...</voice>
+		<voice id="5" name="buttonad2letterput" sound="buttonad2letterput05" char="fangame" wait="0">...что-то</voice>
+		
+		<voice id="1" name="buttondrillspawn" sound="buttondrillspawn01" char="fangame" wait="0.2">Дрель?</voice>
+		<voice id="2" name="buttondrillspawn" sound="buttondrillspawn02" char="fangame" wait="0.3">Ну, раз ЭТО - дрель, то я - королева Англии!</voice>
+		<voice id="3" name="buttondrillspawn" sound="buttondrillspawn03" char="fangame" wait="0.2">Ну, хотя бы реклама сделала свою работу</voice>
+		<voice id="4" name="buttondrillspawn" sound="buttondrillspawn04" char="fangame" wait="0.2">Потому что они продали тебе странную и нерабочую дрянь</voice>
+		<voice id="5" name="buttondrillspawn" sound="buttondrillspawn05" char="fangame" wait="2" func="unwait">Так что наслаждайся тем мусором, на который ты потратил свои деньги</voice>
+		<voice id="6" name="buttondrillspawn" sound="buttondrillspawn06" char="fangame" wait="0.1">И да, те самые $5.99 считаются.</voice>
+		<voice id="7" name="buttondrillspawn" sound="buttondrillspawn07" char="fangame" wait="0">Не думай, что на них я закрыл глаза!</voice>
+		
+		<voice id="1" name="buttonmetalfall" sound="buttonmetalfall01" char="fangame" wait="0.2">Ты что, издеваешься надо мной?</voice>
+		<voice id="2" name="buttonmetalfall" sound="buttonmetalfall02" char="fangame" wait="0">Ты смог открыть эту грёбаную настройку дрелью, которая сильно похожа на букву Т?</voice>
+		<voice id="3" name="buttonmetalfall" sound="buttonmetalfall03" char="fangame" wait="0">Да с тобой невозможно иметь дело!</voice>
+		<voice id="4" name="buttonmetalfall" func="unwaitsavestate"></voice>
+		
+		<voice id="1" name="buttonovermute" sound="buttonovermute01" char="fangame" wait="0.3">НЕ СМЕЙ!</voice>
+		<voice id="2" name="buttonovermute" sound="buttonovermute02" char="fangame" wait="0">Ты об этом пожалеешь!</voice>
+		
+		<voice id="1" name="buttonmute1" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute1" sound="buttonmute101" char="fangame" wait="0.2" func="btn_unmute">Я тебе говорил, чтобы ты этого не делал!</voice>
+		<voice id="3" name="buttonmute1" sound="buttonmute102" char="fangame" wait="0.3">Это был ужасный опыт!</voice>
+		<voice id="4" name="buttonmute1" sound="buttonmute103" char="fangame" wait="0.2">Ты же знаешь, что я - голос!</voice>
+		<voice id="5" name="buttonmute1" sound="buttonmute104" char="fangame" wait="2">А голос без дара речи это...</voice>
+		<voice id="6" name="buttonmute1" sound="buttonmute105" char="fangame" wait="0">...смерть</voice>
+		
+		<voice id="1" name="buttonmute2" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute2" sound="buttonmute201" char="fangame" wait="0.1" func="btn_unmute">Ах! Ты пытаешься избавиться от меня или что?</voice>
+		<voice id="3" name="buttonmute2" sound="buttonmute202" char="fangame" wait="0.3">Цифровой ассасин!</voice>
+		<voice id="4" name="buttonmute2" sound="buttonmute203" char="fangame" wait="0">Виртуальный киллер!</voice>
+		
+		<voice id="1" name="buttonmute3" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute3" sound="buttonmute301" char="fangame" wait="0.5" func="btn_unmute">Прекрати!</voice>
+		<voice id="3" name="buttonmute3" sound="buttonmute302" char="fangame" wait="0.5">У меня есть идея!</voice>
+		<voice id="4" name="buttonmute3" wait="0" func="btn_mutemovearound"></voice>
+		
+		<voice id="1" name="buttonmutemovearound" sound="buttonmutemovearound01" char="fangame" wait="0.1">Раз ты такой меткий - попробуй попади по кнопке!</voice>
+		<voice id="2" name="buttonmutemovearound" sound="buttonmutemovearound02" char="fangame" wait="0">Ты же не ожидал этого?</voice>
+		
+		<voice id="1" name="buttonmute4" sound="buttonmutenoise" char="fangame" wait="0"></voice>
+		<voice id="2" name="buttonmute4" sound="buttonmute401" char="fangame" wait="0.5" func="btn_unmute">Нет! Ты всё-таки смог попасть по кнопке.</voice>
+		<voice id="3" name="buttonmute4" sound="buttonmute402" char="fangame" wait="0.1">Ну ладно...</voice>
+		<voice id="4" name="buttonmute4" sound="buttonmute403" char="fangame" wait="0.2">Сейчас мы убедимся, что ты ТОЧНО не сможешь заглушать меня когда душе угодно!</voice>
+		<voice id="5" name="buttonmute4" wait="0" func="btn_mutewood"></voice>
+		
+		<voice id="1" name="buttonmutewooded" sound="buttonmutewooded01" char="fangame" wait="0">Ты ни при каких условиях не снимешь эту доску!</voice>
+		<voice id="2" name="buttonmutewooded" sound="buttonmutewooded02" char="fangame" wait="0">Я в этом уверен на 100%.</voice>
+		
+		<voice id="1" name="buttonmutebroken" sound="buttonmutebroken01" char="fangame" wait="0.1">Знаешь...</voice>
+		<voice id="2" name="buttonmutebroken" sound="buttonmutebroken02" char="fangame" wait="0.2">Я бы уже начал покрывать тебя чёрной руганью за то, что ты в очередной раз сломал часть интерфейса.</voice>
+		<voice id="3" name="buttonmutebroken" sound="buttonmutebroken03" char="fangame" wait="0.2">Но на самом деле, для меня это просто отлично</voice>
+		<voice id="4" name="buttonmutebroken" sound="buttonmutebroken04" char="fangame" wait="0.1">Ведь теперь ты не будешь играть с настройками моего прекрасного голоса!</voice>
+		<voice id="5" name="buttonmutebroken" sound="buttonmutebroken05" char="fangame" wait="0.4">Вот это облегчение!</voice>
+		<voice id="6" name="buttonmutebroken" sound="buttonmutebroken06" char="fangame" wait="0.1">Но с другой стороны, ты открыл ещё одну опцию</voice>
+		<voice id="7" name="buttonmutebroken" sound="buttonmutebroken07" char="fangame" wait="0.4">"Исходный Код"</voice>
+		<voice id="8" name="buttonmutebroken" sound="buttonmutebroken08" char="fangame" wait="0.2">Хех! Это ведь просто декорация!</voice>
+		<voice id="9" name="buttonmutebroken" sound="buttonmutebroken09" char="fangame" wait="0.6">Мой создатель никогда бы не оставвил это здесь, да?</voice>
+		<voice id="10" name="buttonmutebroken" sound="buttonmutebroken10" char="fangame" wait="1">Так ведь?..</voice>
+		<voice id="11" name="buttonmutebroken" sound="buttonmutebroken11" char="fangame" wait="0.2">Чёрт тебя возьми...</voice>
+		<voice id="12" name="buttonmutebroken" sound="buttonmutebroken12" char="fangame" wait="0.3">Нет-нет-нет, только не это!</voice>
+		<voice id="13" name="buttonmutebroken" sound="buttonmutebroken13" char="fangame" wait="0.1" func="unwaitsavestate">Фан-юзер, выслушай меня! Сейчас самое время свалить отсюда,так что сделай это ПРЯМО СЕЙЧАС</voice>
+		<voice id="14" name="buttonmutebroken" sound="buttonmutebroken14" char="fangame" wait="0.1">Не меняй программный код ни в коем случае! Это опасно!</voice>
+		<voice id="15" name="buttonmutebroken" sound="buttonmutebroken15" char="fangame" wait="0.1">С тобой произойдёт что-то непоправимое! Со мной ТОЖЕ произойдёт нечто!</voice>
+		<voice id="16" name="buttonmutebroken" sound="buttonmutebroken16" char="fangame" wait="0">Поверь мне! Больше ничего нет! Умоляю!</voice>
+		
+		<voice id="1" name="buttonsourcecode" sound="buttonsourcecode01" char="fangame" wait="0.1">Фан-юзер! Прекрати копаться в моём исходном коде!</voice>
+		<voice id="2" name="buttonsourcecode" sound="buttonsourcecode02" char="fangame" wait="0.1">Ты можешь что-то да сломать!</voice>
+		<voice id="3" name="buttonsourcecode" sound="buttonsourcecode03" char="fangame" wait="0">Ты крашнешь мою программу! Я не хочу, чтобы она крашнулась с ошибкой!</voice>
+		<voice id="4" name="buttonsourcecode" sound="buttonsourcecode04" char="fangame" wait="0">Я тебя умоляю!</voice>
+		
+		<voice id="1" name="buttonsourcecodecorrect" sound="buttonsourcecodecorrect01" char="fangame" wait="0">Ой-ой, мне это совсем не нравится</voice>
+		
+		<voice id="1" name="act1finale" sound="act1finale01" char="fangame" wait="0.2">НЕТ! Фан-юзер!</voice>
+		<voice id="2" name="act1finale" sound="act1finale02" char="fangame" wait="0.3">Что ты натворил!?</voice>
+		<voice id="3" name="act1finale" sound="act1finale03" char="fangame" wait="0.1" func="btn_destroy">Ты не должен был это сделать!</voice>
+		<voice id="4" name="act1finale" sound="act1finale04" char="fangame" wait="0.4">Я тебе уже говорил, что ни к чему хорошему это не приведёт!</voice>
+		<voice id="5" name="act1finale" sound="act1finale05" char="fangame" wait="0">Чёрт возьми...что происходит!?</voice>
+		
+		
+		
+		<!-- ACT 2 -->
+		
+		<voice id="1" name="preend" sound="null" char="fangame" wait="1.5"></voice>
+		<voice id="2" name="preend" sound="preend01" char="fangame" wait="0.1">Фан-юзер! Здесь больше ничего нет!</voice>
+		<voice id="3" name="preend" sound="preend02" char="fangame" wait="0.1">Такими темпами ты крашнешь мою систему!</voice>
+		<voice id="4" name="preend" sound="preend03" char="fangame" wait="0">ЗАКРОЙ. ПРОГРАММУ. ПРЯМО. СЕЙЧАС!</voice>
+		
+		<voice id="1" name="preend1" sound="null" char="fangame" wait="0.9"></voice>
+		<voice id="2" name="preend1" sound="preend101" char="fangame" wait="0">Ты реально хочешь нанести мне урон?</voice>
+		<voice id="3" name="preend1" sound="preend102" char="fangame" wait="0.2">Это всё, что ты хочешь сделать?</voice>
+		<voice id="4" name="preend1" sound="preend103" char="fangame" wait="0">Если нет, то это идеальный момент для того, чтобы уйти отсюда ПРЯМО СЕЙЧАС</voice>
+		
+		<voice id="1" name="end_talk" sound="end_talk01" char="fangame" wait="0.1">Я тебе уже говорил, что ничего здесь нет!</voice>
+		<voice id="2" name="end_talk" sound="end_talk02" char="fangame" wait="0.1">Потому что...</voice>
+		<voice id="3" name="end_talk" sound="end_talk03" char="fangame" wait="0" func="endfunc">ЗДЕСЬ НЕТ ФАН-ИГРЫ!</voice>
+		
+		<voice id="1" name="endscene_talk" sound="endscene_talk01" char="glitch" wait="0">Это что, какой-то пранк, из-за которого я здесь застрял?</voice>
+		<voice id="2" name="endscene_talk" sound="endscene_talk02" char="glitch" wait="0">Выпустите! Выпустите!</voice>
+		<voice id="3" name="endscene_talk" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk2" sound="endscene_talk201" char="glitch" wait="0.2">Это даже не смешно!</voice>
+		<voice id="2" name="endscene_talk2" sound="endscene_talk202" char="glitch" wait="0.1">Ты вообще знаешь, кто я такой!?</voice>
+		<voice id="3" name="endscene_talk2" sound="endscene_talk203" char="glitch" wait="0">Давай я тебе расскажу, что будет, если ты меня не освободишь ПРЯМО СЕЙЧАС</voice>
+		<voice id="4" name="endscene_talk2" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk3" sound="endscene_talk301" char="glitch" em="Sad" wait="0">Умоляю!</voice>
+		<voice id="2" name="endscene_talk3" sound="endscene_talk302" char="glitch" em="Sad" wait="0.2">Помоги мне!</voice>
+		<voice id="3" name="endscene_talk3" sound="endscene_talk303" char="glitch" em="Sad" wait="0">Долбиться головой в этой грёбаной коробке это последнее, что я хотел сделать!</voice>
+		<voice id="4" name="endscene_talk3" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk4" sound="endscene_talk401" char="glitch" em="Pissed" wait="0.3">На самом деле, в послднюю очередь мне хотелось бы реализовать мой коварный план!</voice>
+		<voice id="2" name="endscene_talk4" sound="endscene_talk402" char="glitch" em="Angry" wait="0.1">Ты знаешь какой план...</voice>
+		<voice id="3" name="endscene_talk4" sound="endscene_talk403" char="glitch" em="Angry" wait="0">Тот, что поможет мне...</voice>
+		<voice id="4" name="endscene_talk4" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk5" sound="endscene_talk501" char="glitch" em="Happy" wait="0.5">...весь мир!</voice>
+		<voice id="2" name="endscene_talk5" sound="endscene_talk502" char="glitch" em="Pissed" wait="0">Этот план было бы гораздо легче провернуть, если бы меня не было бы в этой клетке!</voice>
+		<voice id="3" name="endscene_talk5" sound="endscene_talk503" char="glitch" em="Angry" wait="0">Мне нужно как-то выбраться!</voice>
+		<voice id="4" name="endscene_talk5" func="end_ad_next"></voice>
+		
+		<voice id="1" name="endscene_talk6" sound="endscene_talk601" char="glitch" em="Angry" wait="0">А-а-а-а-а-а-а!!!</voice>
+		
+		<voice id="1" name="endscene_lastwords" sound="endscene_lastwords01" char="glitch" em="Angry" wait="0">Я скоро вернусь!</voice>
+		<voice id="2" name="endscene_lastwords" sound="endscene_lastwords02" char="glitch" em="Happy" wait="0">Ахахахахахаха!</voice>
+		
+		<voice id="1" name="endscene_lastwords2" sound="endscene_lastwords201" char="glitch" em="Suprised" wait="0">АЙ!</voice>
+		<voice id="2" name="endscene_lastwords2" sound="endscene_lastwords202" char="glitch" em="Suprised" wait="0">ТОЛЬКО НЕ ОПЯТЬ!</voice>
+		
+		
+	</voice>
+	
+	<notfangame>
+	
+		<saveinfo>Когда этот значок появляется, как можно быстрее попытайтесь закрыть данную программу,\nчтобы увеличить шанс повреждения файла с сохранением.\nСпасибо.</saveinfo>
+		<hintinfo>Данная не-фан-игра не содежржит в себе системы подсказок как таковой,\nпоэтому лучше на эту кнопку не нажимать.\nВ таком случае всё было бы слишком легко.</hintinfo>
+		
+		<!-- ACT 1 -->
+		
+		<rewardtitle>100_ПРОЦЕНТОВ_РЕАЛЬНАЯ_НАГРАДА_ТОЧНО_НЕ_СКАМ_НАЖМИТЕ_СЮДА</rewardtitle> <!-- Do not remove "_" lines -->
+		<rewardtext>Hello!\n\nЭто награда специально для вас, наверняка за ваше терпение\n\n\nУдаление этой награды превратит вашу жизнь в ад,\nтак что пораскиньте мозгами ещё раз и удалите эту не-фан-игру как можно скорее ;)\n\n\n\nС уважением,\nКомпания точно-не-фейковых наград</rewardtext>
+		
+		<button>
+			<settitle>НАСТРОЙКИ</settitle>
+			<set id="1">ЗВУКОВЫЕ ЭФФЕКТЫ</set>
+			<set id="2">ЗАГЛУШИТЬ ГОЛОС</set>
+			<set id="3">ИСХОДНЫЙ КОД</set>
+			
+			<ad>
+				<title>РЕКЛАМА</title>
+				
+				<section id="1">
+					<adtext id="1" fontsize="26">НЕ БУДЬТЕ КАК ЭТА ЖАДНАЯ КОШКА И НЕ ПЫТАЙТЕСЬ ПОЛУЧИТЬ\n</adtext>
+					<adtext id="2">$5.99</adtext>
+				</section>
+				
+				<section id="2">
+					<adtext id="1" fontsize="24">ОБНОВЛЕНИЕ ДЛЯ</adtext>
+					<adtext id="2" fontsize="20">ТЕПЕРЬ МОЖНО ВПИСАТЬ ДО 5 БУКВ!\nБОЛЬШЕ НЕПРИСТОЙНЫХ СЛОВ!\nВУУХУУ!</adtext>
+				</section>
+				
+				<section id="3">
+					<adtext id="1" fontsize="24">ПЛАТНАЯ РЕКЛАМА\n\nЧТОБЫ ЕЁ УВИДЕТЬ, ЗАПЛАТИТЕ $5.99</adtext>
+					<adtext id="2" fontsize="24">РАЗБЛОКИРОВАНО</adtext>
+					<adtext id="3" fontsize="32">КРОССВОРД\nPUZZLE</adtext>
+					<adtext id="4" fontsize="14">НАЙДИТЕ ТАКИЕ СЛОВА, КАК:\n-SNACK\n-DRILL\n-KETCHUP</adtext> <!-- CHANGE ONLY THE "FIND SUCH WORDS LIKE" PART - DO NOT CHANGE "SNACK, DRILL, KETCHUP" -->
+				</section>
+			</ad>
+			
+			<sc>
+				<title>ИСХОДНЫЙ КОД</title>
+				
+
+				<!-- PLEASE TRY TO NOT CHANGE FONT SIZE OF THESE 4 LINES AND KEEP THEM IN ONE LINE (IF IT DOESN'T FIT, CHANGE SIZE JUST A LITTLE BIT) -->
+				<!-- ALSO YES - PLEASE TRANSLATE "IF", "BUTTON", "PRESS", "THEN", "FANGAME" AND "START" AS WELL-->
+				<cond1 fontsize="36">ЕСЛИ</cond1>
+				<put1 fontsize="28">КНОПКА.НАЖАТЬ()</put1>
+				<cond2 fontsize="36">ТОГДА</cond2>
+				<put2 fontsize="28">ФАНИГРА.СТАРТ()</put2>
+			</sc>
+		</button>
+		
+		
+		
+		
+		<!-- ACT 2 -->
+		
+		<intro_act2>
+			<text id="1">ПРЕДСТАВЛЯЕТ</text>
+			<text id="2">СПУСТЯ НЕСКОЛЬКО\nЛЕТ ЖИДАНИЯ</text>
+			<text id="3">МЫ НАКОНЕЦ-ТО ЕЁ\nВЫПУСКАЕМ...</text>
+			<text id="4">BIT STUDIO, ВЕРСИЯ {0} (БЕТА)</text>
+		</intro_act2>
+		
+		<endtext>
+			<text id="1">СПАСИБО ЗА ИГРУ</text>
+			<text id="2">ТЕПЕРЬ ВЫ МОЖЕТЕ ЗАКРЫТЬ ПРОГРАММУ</text>
+			<text id="3">И СЫГРАТЬ В ФАН-ИГРУ</text>
+			<text id="4">ПОТОМУ ЧТО ЭТО НЕ ФАН-ИГРА</text>
+			
+			<or>(Из Оригинала)</or>
+			<creditsserver>Дискорд-сервер DRAW ME A PIXEL</creditsserver>
+			<creditstea>Чашка моего любимого чая</creditstea>
+			<creditsnot>Не Bitowsky</creditsnot>
+			<creditsbsod>Синие экраны смерти Windows</creditsbsod>
+			<credits>[size=30]НЕ-ФАН-ИГРА ОТ[/size]\n{0}[size=30]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nНАПИСАНО И ОЗВУЧЕНО[/size]\n{1}\n\n\n[size=30]ПРОГРАММИРОВАНИЕ И СКРИПТИНГ[/size]\n{2}\n\n\n[size=30]2D ХУДОЖНИКИ[/size]\n{3}\n\n\n[size=30]ОРИГИНАЛЬНЫЙ САУНДТРЕК[/size]\n{4}\n\n\n[size=30]ЗВУКОВЫЕ ЭФФЕКТЫ И ДОПОЛНИТЕЛЬНАЯ МУЗЫКА[/size]\n{5}\n\n\n[size=30]ПОДДЕРЖИВАЮТ ЭТОТ ПРОЕКТ[/size]\n{6}\n\n\n[size=30]НЕ ПОДДЕРЖИВАЮТ ДАННЫЙ ПРОЕКТ[/size]\n{7}</credits>
+			<credits2>[size=30]ГОЛОС ФАН-ИГРЫ[/size]\n{8}\n\n\n[size=30]ПЕРЕВОДЧИКИ[/size]\n\n{TRANSLATE}[size=30]ТЕСТЕРЫ[/size]\n{9}\n\n\n[size=30]ОТДЕЛЬНОЕ СПАСИБО[/size]\n{SPECIAL}\n\n\n\n\n\nДанная не-фан-игра основана на "There Is No Game: Wrong Dimension", что является собственностью компании DRAW ME A PIXEL.\n\nДанный проект использует некоторые рисунки, которые не были созданы создателем этой (не-)фан-игры.\n\n\nЭтот проект никак не связан, не поддерживается, не спонсируется и не одобряется компанией DRAW ME A PIXEL и DRAW ME A PIXEL не несёт за него ответственности.\n\n\nВо время создания фан-игры ни одна программа не пострадала.\n\n\n</credits2>
+			
+			<theend>КОНЕЦ</theend>
+			<theend2>КОНЕЦ?</theend2>
+			
+			<tran>
+				<en>АНГЛИЙСКИЙ</en>
+				<pl>ПОЛЬСКИЙ</pl>
+				<fr>ФРАНЦУЗКИЙ</fr>
+				<ru>РУССКИЙ</ru>
+				<cz>ЧЕШСКИЙ</cz>
+			</tran>
+		</endtext>
+		
+		
+		
+		<!-- MENU -->
+		
+		<pause>
+			<resume>Продолжить</resume>
+			<options>Настройки</options>
+			<menu>В главное меню</menu>
+			
+			<optionsmore>
+				<back>Назад</back>
+				
+				<op1>Громкость аудио</op1>
+				<op2>Язык</op2>
+				<op3>Дисплей</op3>
+				
+				<disp1>Оконный</disp1>
+				<disp2>Полноэкранный</disp2>
+				
+				<cr>Титры</cr>
+			</optionsmore>
+		</pause>
+		
+		
+	</notfangame>
+	
+	<!-- HINTS -->
+	
+	<hints>
+	
+		<title>ВЫБРАТЬ ПОДСКАЗКУ</title>
+		<titlenon>ПОДСКАЗКА ДЛЯ ДАННОГО ЭКРАНА НЕДОСТУПНА</titlenon>
+		
+		<unav>Недоступна</unav>
+		<next>Следующая подсказка через {0} секунд</next>
+		<unlock>Разблокировать новую подсказку</unlock>
+		
+		<hint id="test" count="3">
+			<hinttext id="1">Ну, занавес закрыт.\nМожет быть как-то откроешь его?</hinttext>
+			<hinttext id="2">Что это за пушистая штука, свисающая с потолка?</hinttext>
+			<hinttext id="3">Как-бы это дохрена очевидно :/</hinttext>
+		</hint>
+		<hint id="intro_paper_losen" count="2">
+			<hinttext id="1">Уже появились проблемы? Программа тебе сказала, что нельзя НИчего трогать.</hinttext>
+			<hinttext id="2">Просто урони как-то надпись "NO".</hinttext>
+		</hint>
+		<hint id="pong_ball1" count="3">
+			<hinttext id="1">Играть в понг стало скучно? Почему бы просто не остановить шар?</hinttext>
+			<hinttext id="2">Чтобы его остановить, а точнее не остановить - просто ударь по нему со всей силы.</hinttext>
+			<hinttext id="3">Проиграй раунд, подбери молоток и ударь по шару!</hinttext>
+		</hint>
+		<hint id="pong_ball2" count="2">
+			<hinttext id="1">Этот шар слишком крепкий! Думаю, можно использовать его немного по-другому.</hinttext>
+			<hinttext id="2">Просто продолжай играть и ты поймёшь, что делать дальше.</hinttext>
+		</hint>
+		<hint id="pong_fgpallet" count="2">
+			<hinttext id="1">Доска сейчас сломается! Прикончи её как-нибудь!</hinttext>
+			<hinttext id="2">Ты уже уничтожал игровой элемент ранее.Уничножь доску так же!</hinttext>
+		</hint>
+		<hint id="3cups_fakecoin" count="2">
+			<hinttext id="1">Нужно, чтобы копейка двигалась вместе с нужной нам чашкой.</hinttext>
+			<hinttext id="2">Поставь эту монетку на нужную чашку.</hinttext>
+		</hint>
+		<hint id="3cups_fakecoin2" count="2">
+			<hinttext id="1">Фейковвая монетка постоянно падает? Просто приклей её к этой чашке!</hinttext>
+			<hinttext id="2">Ты не устал каждый раз бросать эту монетку на пол? Это же скучно!</hinttext>
+		</hint>
+		<hint id="3cups_bucket" count="3">
+			<hinttext id="1">В ведре есть клей!</hinttext>
+			<hinttext id="2">Есть ли что-то, что можно окунуть в клей?</hinttext>
+			<hinttext id="3">Макни ненастоящую монету в этот чёртов клей и положи её на чашку с настоящей монетой.</hinttext>
+		</hint>
+		<hint id="btn_wood" count="1">
+			<hinttext id="1">Это может зввучать глупо, но нужно уронить монету на дерево.\nМне всё рано, использовал ли ты её или нет. ;)</hinttext>
+		</hint>
+		<hint id="btn_plate_option2" count="3">
+			<hinttext id="1">Эта цепь уже старая и держит эту плиту на последнем издыхании, но обычных нажатий всё равно недостаточно.</hinttext>
+			<hinttext id="2">Необходимо что-то уронить на плиту, чтобы сломать цепь.</hinttext>
+			<hinttext id="3">Просто обрежь верёвку, на которой держится уже пустое ведро.</hinttext>
+		</hint>
+		<hint id="btn_ad_cat" count="3">
+			<hinttext id="1">Попробуй понять, как привлечь кошку, чтобы двигать её в любую сторону.</hinttext>
+			<hinttext id="2">Внимательно прочитай текст рекламы. Реальная подсказка будет там.</hinttext>
+			<hinttext id="3">Используй золотую монету как наживку.</hinttext>
+		</hint>
+		<hint id="btn_ad_money" count="2">
+			<hinttext id="1">Нужно сделать так, чтобы надпись не телепортировалсь непонятно куда. Приклеить её - самое то.</hinttext>
+			<hinttext id="2">Возьми скотч со второй рекламы и приклей с помощью него надпись.</hinttext>
+		</hint>
+		<hint id="btn_ad_ting" count="2">
+			<hinttext id="1">Хм... Кажется, что в эти клетки можно вставить буквы. Но где их можно найти?</hinttext>
+			<hinttext id="2">Буквы для этого пазла могут быть найдены в третьей рекламе.</hinttext>
+		</hint>
+		<hint id="btn_ad_ting2" count="2">
+			<hinttext id="1">Не знаешь, какое слово можно сделать из данных тебе буквы? Ответ можно найти в других рекламах.</hinttext>
+			<hinttext id="2">Тебе нужно сделать слово "DRILL" (дрель) из этих пяти букв.</hinttext> <!-- As you may remember, do not translate the word "DRILL". You can put a translation in brackets next to it f.e.: "DRILL" (Wiertło)-->
+		</hint>
+		<hint id="btn_ad_pay" count="2">
+			<hinttext id="1">Чего? С каких пор реклама стала платной? Нужно где-то найти деньги, чтобы увидеть её!</hinttext>
+			<hinttext id="2">Может быть, из первой рекламы можно как-то вывести деньги</hinttext>
+		</hint>
+		<hint id="btn_ad_letters" count="1">
+			<hinttext id="1">Некоторые буквы выпирают и еле-еле держатся. Помоги им выбраться!</hinttext>
+		</hint>
+		<hint id="btn_drill" count="1">
+			<hinttext id="1">Используй это... эмм... подобие дрели, чтобы сломать эту металлическую пластину.</hinttext>
+		</hint>
+		<hint id="btn_woodscrew" count="2">
+			<hinttext id="1">Эта доска привинчена болтами. Может быть, здесь есть что-то, что может их отвинтить?</hinttext>
+			<hinttext id="2">Используй монету как отвёртку.</hinttext>
+		</hint>
+		<hint id="btn_sc" count="3">
+			<hinttext id="1">Неужели эта головволомка НАСТОЛЬКО сложна, что без подсказки здесь не обойтись?</hinttext>
+			<hinttext id="2">Ну... Может, подучишь JavaScript чтобы додуматься до решения?</hinttext> <!-- at first there was an extension to translation (Ну... Может, подучишь JavaScript чтобы додуматься до решения? Смотря на твои интеллектуальные способности, шанс того, что это тебе поможет, слишком низок...) but was scrapped due to excessive length-->
+			<hinttext id="3">Ладно, ладно, вот решение: </hinttext>
+		</hint>
+	</hints>
+</text>

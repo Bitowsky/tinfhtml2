@@ -1,0 +1,56 @@
+[
+  {
+    "FOLDERNAME": "folder_1",
+    "INSIDE1": "folder|folder_2",
+    "INSIDE2": "folder|folder_3",
+    "INSIDE3": "folder|folder_4"
+  },
+  {
+    "FOLDERNAME": "folder_2",
+    "INSIDE1": "folder|folder_3",
+    "INSIDE2": "file|file_1",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "folder_3",
+    "INSIDE1": "folder|folder_1",
+    "INSIDE2": "",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "bin",
+    "INSIDE1": "file|tutorial_admin",
+    "INSIDE2": "folder|user_bin_folder",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "images",
+    "INSIDE1": "image1",
+    "INSIDE2": "image3",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "user_bin_folder",
+    "INSIDE1": "folder|user_bin_folder2",
+    "INSIDE2": "file|user_bin_folder_file1",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "user_bin_folder2",
+    "INSIDE1": "folder|user_bin_folder3",
+    "INSIDE2": "file|user_bin_folder_file2",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "user_bin_folder3",
+    "INSIDE1": "folder|user_bin_folder4",
+    "INSIDE2": "file|user_bin_folder_file3",
+    "INSIDE3": ""
+  },
+  {
+    "FOLDERNAME": "user_bin_folder4",
+    "INSIDE1": "file|user_bin_folder_file4",
+    "INSIDE2": "image2",
+    "INSIDE3": ""
+  }
+]
